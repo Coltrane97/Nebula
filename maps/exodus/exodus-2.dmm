@@ -47559,7 +47559,7 @@
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Monitoring Room"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engineering_monitoring)
 "bMI" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -54076,7 +54076,7 @@
 	icon_state = "1-2";
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_smes)
 "bYN" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -55486,7 +55486,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cbB" = (
 /obj/structure/table/reinforced,
@@ -55838,7 +55838,7 @@
 	locked = 0;
 	name = "Engine Airlock Exterior"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "ccl" = (
 /obj/machinery/door/airlock/medical{
@@ -57994,8 +57994,10 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/evahallway)
 "cgo" = (
-/obj/machinery/computer/modular/preset/engineering,
-/turf/simulated/floor/tiled,
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "cgp" = (
 /obj/structure/bed/chair/comfy/brown,
@@ -58234,7 +58236,7 @@
 	name = "Atmospherics Maintenance Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/sublevel_access)
 "cgN" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -59871,26 +59873,26 @@
 	pixel_x = -3;
 	pixel_y = 7
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "cjU" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan,
 /obj/item/folder/yellow,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "cjV" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/package_wrap,
 /obj/item/hand_labeler,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "cjW" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger{
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "cjX" = (
 /obj/structure/cable/green{
@@ -59934,7 +59936,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/locker_room)
 "ckb" = (
 /obj/structure/cable/green{
@@ -60457,7 +60459,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_eva)
 "cld" = (
 /obj/machinery/light/small{
@@ -60480,7 +60482,7 @@
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
 /obj/item/tape_roll,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/foyer)
 "clg" = (
 /obj/machinery/navbeacon/Engineering,
@@ -60552,7 +60554,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/locker_room)
 "cln" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -61642,7 +61644,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering)
 "cnt" = (
 /obj/machinery/oxygen_pump,
@@ -61691,7 +61693,7 @@
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering)
 "cnz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -61782,14 +61784,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/workshop)
 "cnL" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Workshop"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/workshop)
 "cnM" = (
 /obj/structure/sign/warning/secure_area,
@@ -62785,7 +62787,7 @@
 /obj/machinery/door/airlock/glass/atmos{
 	name = "Atmospherics Monitoring Room"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engineering_monitoring)
 "cpX" = (
 /obj/machinery/atmospherics/omni/filter{
@@ -62809,7 +62811,7 @@
 /obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Monitoring Room"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engineering_monitoring)
 "cpZ" = (
 /obj/structure/disposalpipe/junction,
@@ -64451,7 +64453,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/workshop)
 "cuu" = (
 /obj/structure/disposalpipe/sortjunction/flipped{
@@ -65312,7 +65314,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/storage)
 "cwQ" = (
 /obj/structure/table/standard,
@@ -65344,7 +65346,7 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Hard Storage"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/storage)
 "cwX" = (
 /obj/structure/sign/redcross{
@@ -66243,7 +66245,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering)
 "cBs" = (
 /obj/structure/reagent_dispensers/water_cooler,
@@ -66608,7 +66610,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cDx" = (
 /obj/machinery/door/airlock/hatch/maintenance{
@@ -66622,7 +66624,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "cDy" = (
 /obj/structure/bed/chair{
@@ -68470,7 +68472,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_room)
 "cLg" = (
 /obj/machinery/door/airlock/hatch/maintenance{
@@ -68478,7 +68480,7 @@
 	locked = 0;
 	name = "Engine Airlock Interior"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_room)
 "cLh" = (
 /obj/effect/floor_decal/industrial/warning{
