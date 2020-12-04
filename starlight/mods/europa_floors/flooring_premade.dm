@@ -4,15 +4,19 @@
 
 /turf/simulated/floor/plating
 	icon = ICON_PATH_PLATING
+	icon_state = "plating"
 
 /turf/simulated/floor/reinforced
 	icon = ICON_PATH_TILES
+	icon_state = "reinforced"
 
 /turf/simulated/floor/tiled
 	icon = ICON_PATH_TILES
+	icon_state = "steel"
 
 /turf/simulated/floor/tiled/techmaint
 	icon = ICON_PATH_TILES
+	icon_state = "techmaint"
 
 /turf/simulated/floor/shuttle_ceiling
 	icon = ICON_PATH_TILES

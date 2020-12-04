@@ -8046,7 +8046,6 @@
 	output_level = 1e+006
 	},
 /obj/structure/cable,
-/obj/effect/engine_setup/smes,
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
 "apm" = (
@@ -8057,11 +8056,9 @@
 	pixel_x = 0;
 	pixel_y = 25
 	},
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 6
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/engine_setup/empty_canister,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "apn" = (
@@ -11608,11 +11605,7 @@
 	output_level = 250000;
 	outputting = 0
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/engine_setup/smes,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "awb" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -30881,7 +30874,6 @@
 "bhR" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/blue,
-/obj/effect/engine_setup/coolant_canister,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "bhS" = (
@@ -39640,8 +39632,7 @@
 "byn" = (
 /obj/effect/overmap/visitable/ship/landable/pod/research,
 /obj/machinery/computer/ship/helm{
-	dir = 8;
-	icon_state = "computer"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/exodus_pod_research)
@@ -41251,8 +41242,10 @@
 /turf/simulated/floor/plating,
 /area/storage/emergency)
 "bBe" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
 /area/ship/exodus_pod_engineering)
 "bBf" = (
 /obj/structure/cable/green{
@@ -45422,7 +45415,7 @@
 "bIM" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "bIN" = (
 /obj/structure/cable/green{
@@ -46457,7 +46450,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/network/relay,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_smes)
 "bKy" = (
 /obj/structure/cable{
@@ -51047,7 +51040,6 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/obj/effect/engine_setup/pump_max,
 /turf/simulated/floor/plating,
 /area/engineering/engine_waste)
 "bTn" = (
@@ -51194,7 +51186,6 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/engine_setup/coolant_canister,
 /turf/simulated/floor/plating,
 /area/engineering/engine_waste)
 "bTC" = (
@@ -52213,7 +52204,7 @@
 	},
 /obj/structure/table/steel,
 /obj/item/book/manual/supermatter_engine,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "bVv" = (
 /obj/structure/closet/radiation,
@@ -52225,7 +52216,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "bVw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -52282,7 +52273,6 @@
 	name = "Engine Waste"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/engine_setup/empty_canister,
 /turf/simulated/floor/plating,
 /area/engineering/engine_waste)
 "bVC" = (
@@ -52983,7 +52973,7 @@
 	pixel_x = 25;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "bWX" = (
 /obj/machinery/light{
@@ -53002,7 +52992,7 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_airlock)
 "bWY" = (
 /turf/simulated/floor/tiled/white,
@@ -54714,7 +54704,7 @@
 	},
 /obj/item/storage/box/lights/mixed,
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_smes)
 "cad" = (
 /obj/structure/table/reinforced,
@@ -55445,7 +55435,7 @@
 	dir = 8
 	},
 /obj/item/remains/robot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cbx" = (
 /obj/structure/closet/secure_closet/engineering_chief,
@@ -55942,9 +55932,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
-"ccp" = (
-/turf/simulated/wall/titanium,
-/area/ship/exodus_pod_engineering)
 "ccs" = (
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Substation - Research";
@@ -56184,10 +56171,8 @@
 /turf/simulated/wall/prepainted,
 /area/medical/virologyaccess)
 "ccQ" = (
-/obj/machinery/shipsensors/weak,
-/obj/structure/cable/green,
-/turf/simulated/floor/plating,
-/area/ship/exodus_pod_engineering)
+/turf/simulated/floor/tiled,
+/area/engineering/drone_fabrication)
 "ccR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -57516,7 +57501,7 @@
 	dir = 4
 	},
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_smes)
 "cfk" = (
 /obj/structure/closet/l3closet,
@@ -57656,7 +57641,6 @@
 	tag_west = 2;
 	use_power = 0
 	},
-/obj/effect/engine_setup/filter,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cfA" = (
@@ -57667,7 +57651,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/atmospherics/binary/pump{
+/obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -58382,13 +58366,12 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora)
 "chd" = (
-/obj/machinery/atmospherics/binary/pump,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/engine_setup/pump_max,
+/obj/machinery/atmospherics/binary/pump/high_power,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "che" = (
@@ -60009,7 +59992,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "ckg" = (
 /obj/structure/cable/green{
@@ -60369,7 +60352,7 @@
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "ckS" = (
 /obj/structure/ladder,
@@ -60628,7 +60611,7 @@
 /obj/machinery/ai_status_display{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "clv" = (
 /obj/structure/cable{
@@ -61351,6 +61334,10 @@
 	name = "Reactor Blast Door"
 	},
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4;
+	icon_state = "intact"
+	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cmN" = (
@@ -61564,7 +61551,6 @@
 /obj/machinery/mass_driver{
 	id_tag = "enginecore"
 	},
-/obj/effect/engine_setup/core,
 /turf/simulated/floor/greengrid/nitrogen,
 /area/engineering/engine_room)
 "cni" = (
@@ -61588,7 +61574,7 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cnl" = (
 /obj/machinery/oxygen_pump,
@@ -61746,7 +61732,7 @@
 /obj/structure/sign/warning/compressed_gas{
 	pixel_y = -32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cnF" = (
 /obj/machinery/door/firedoor,
@@ -62153,8 +62139,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/sublevel_access)
 "cox" = (
-/obj/machinery/atmospherics/binary/pump,
-/obj/effect/engine_setup/pump_max,
+/obj/machinery/atmospherics/binary/pump/high_power,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "coy" = (
@@ -62234,8 +62219,13 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "coG" = (
 /obj/structure/table/reinforced,
@@ -62346,7 +62336,6 @@
 	name = "Engine Waste"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/engine_setup/pump_max,
 /turf/simulated/floor/plating,
 /area/engineering/engine_waste)
 "coU" = (
@@ -62651,22 +62640,17 @@
 /turf/space,
 /area/space)
 "cpD" = (
-/obj/machinery/computer/modular/preset/engineering,
-/turf/simulated/floor/plating,
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cpE" = (
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
-"cpF" = (
-/obj/machinery/computer/shuttle_control/explore/engineering{
-	dir = 8;
-	icon_state = "computer"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/ship/exodus_pod_engineering)
 "cpH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -62811,7 +62795,6 @@
 	tag_west = 2;
 	use_power = 0
 	},
-/obj/effect/engine_setup/filter,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cpY" = (
@@ -63106,7 +63089,7 @@
 /area/solar/starboard)
 "cqL" = (
 /obj/structure/table/reinforced,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cqN" = (
 /obj/structure/table/reinforced,
@@ -63133,7 +63116,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cqO" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -63505,10 +63488,13 @@
 /area/space)
 "crM" = (
 /obj/machinery/computer/ship/sensors{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/button/blast_door{
+	id_tag = "engpod_shutters";
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/exodus_pod_engineering)
 "crN" = (
 /obj/machinery/door/blast/regular{
@@ -63988,7 +63974,6 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8
 	},
-/obj/effect/engine_setup/pump_max,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "ctr" = (
@@ -64675,7 +64660,7 @@
 	},
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/simple/visible/green,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cuK" = (
 /obj/machinery/button/access/exterior{
@@ -66559,7 +66544,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cDj" = (
 /obj/structure/disposalpipe/segment,
@@ -66589,7 +66574,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cDr" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -66599,7 +66584,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cDu" = (
 /obj/machinery/recharge_station,
@@ -66646,8 +66631,10 @@
 /turf/simulated/floor/plating,
 /area/engineering/drone_fabrication)
 "cDA" = (
-/obj/machinery/computer/drone_control,
-/turf/simulated/floor/plating,
+/obj/machinery/computer/drone_control{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cDB" = (
 /obj/machinery/meter,
@@ -66740,13 +66727,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cDV" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cDW" = (
 /obj/machinery/recharge_station,
@@ -66778,7 +66765,7 @@
 	pixel_x = -2;
 	pixel_y = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cEe" = (
 /obj/structure/disposalpipe/segment{
@@ -66796,10 +66783,10 @@
 /area/engineering/engine_monitoring)
 "cEk" = (
 /obj/machinery/drone_fabricator,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cEn" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cEo" = (
 /obj/structure/disposalpipe/trunk{
@@ -66897,7 +66884,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cEF" = (
 /obj/item/stack/cable_coil,
@@ -66906,7 +66893,7 @@
 	pixel_y = 3
 	},
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_smes)
 "cEI" = (
 /obj/machinery/alarm{
@@ -66970,6 +66957,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
+/obj/item/stool/padded,
 /turf/simulated/floor/plating,
 /area/engineering/drone_fabrication)
 "cEW" = (
@@ -67023,7 +67011,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cFA" = (
 /obj/structure/cable{
@@ -67124,7 +67112,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cGd" = (
 /obj/structure/cable{
@@ -67170,7 +67158,7 @@
 	c_tag = "Engine Monitoring Room";
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cGm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -67182,14 +67170,14 @@
 /obj/effect/landmark/start{
 	name = "Station Engineer"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cGo" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light_switch{
 	pixel_x = 27
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "cGr" = (
 /turf/simulated/floor/plating,
@@ -67340,9 +67328,11 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cGZ" = (
-/obj/machinery/computer/drone_control,
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/obj/machinery/computer/drone_control{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cHa" = (
 /obj/machinery/alarm{
@@ -67355,7 +67345,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cHb" = (
 /turf/simulated/floor/plating,
@@ -67385,14 +67375,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/engineering/drone_fabrication)
 "cHg" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/engineering/drone_fabrication)
 "cHl" = (
 /obj/machinery/alarm{
@@ -67477,15 +67467,11 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_airlock)
 "cHB" = (
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /obj/machinery/ion_thruster{
 	dir = 4;
 	icon_state = "nozzle"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/airless,
 /area/ship/exodus_pod_engineering)
 "cHD" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
@@ -67499,6 +67485,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
 "cHF" = (
@@ -67589,7 +67579,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cHZ" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/cyan,
+/obj/machinery/atmospherics/pipe/manifold4w/visible/cyan,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cIa" = (
@@ -67599,7 +67589,14 @@
 	state = 2
 	},
 /obj/structure/cable/cyan,
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cIb" = (
 /obj/machinery/power/terminal{
@@ -67614,10 +67611,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cIc" = (
 /obj/item/stack/cable_coil,
@@ -67750,11 +67744,12 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_waste)
 "cIC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 6
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 8;
+	icon_state = "map"
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
@@ -67774,7 +67769,7 @@
 	anchored = 1;
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cIG" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
@@ -67790,7 +67785,7 @@
 /obj/machinery/atmospherics/binary/circulator{
 	anchored = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cIJ" = (
 /obj/structure/cable/yellow{
@@ -67987,9 +67982,14 @@
 /turf/simulated/floor/plating,
 /area/maintenance/portsolar)
 "cJo" = (
-/obj/structure/window/reinforced,
-/turf/simulated/floor/plating,
-/area/engineering/engine_room)
+/obj/machinery/shipsensors/weak,
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	icon_state = "map_injector";
+	use_power = 1
+	},
+/turf/simulated/floor/airless,
+/area/ship/exodus_pod_engineering)
 "cJs" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black,
 /obj/effect/floor_decal/industrial/warning{
@@ -67998,12 +67998,12 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cJt" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
-	dir = 4;
-	icon_state = "map"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 9;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
@@ -68041,7 +68041,13 @@
 /area/engineering/engine_waste)
 "cJF" = (
 /obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cJG" = (
 /obj/machinery/door/airlock/engineering{
@@ -68059,8 +68065,14 @@
 /turf/simulated/floor/plating,
 /area/maintenance/portsolar)
 "cJH" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cJI" = (
 /obj/structure/cable{
@@ -68076,9 +68088,6 @@
 /area/maintenance/engi_engine)
 "cJJ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
-	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cJL" = (
@@ -68097,18 +68106,18 @@
 	pixel_y = -25
 	},
 /obj/machinery/light,
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
-/area/engineering/engine_room)
-"cJM" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 6
+/obj/structure/railing/mapped{
+	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/engineering/engine_room)
+"cJM" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 5;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
@@ -68120,13 +68129,16 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cJP" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 10
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cJT" = (
 /turf/simulated/floor/plating,
@@ -68139,7 +68151,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cJV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
@@ -68169,12 +68187,9 @@
 	dir = 4
 	},
 /obj/structure/cable/yellow,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cKa" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
-	dir = 8
-	},
 /obj/machinery/meter,
 /obj/machinery/camera/network/engine{
 	c_tag = "Engine Core East";
@@ -68183,7 +68198,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cKd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -68254,7 +68275,7 @@
 /area/engineering/engine_room)
 "cKw" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
+	dir = 8;
 	icon_state = "map_injector";
 	id_tag = "cooling_in";
 	name = "Coolant Injector";
@@ -68274,14 +68295,12 @@
 /area/space)
 "cKB" = (
 /obj/machinery/atmospherics/unary/vent_pump/engine{
-	dir = 1;
+	dir = 4;
 	external_pressure_bound = 100;
 	external_pressure_bound_default = 0;
 	icon_state = "map_vent_in";
 	id_tag = "cooling_out";
 	initialize_directions = 1;
-	pressure_checks = 1;
-	pressure_checks_default = 1;
 	pump_direction = 0;
 	use_power = 1
 	},
@@ -68299,11 +68318,17 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cKE" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 4;
+	icon_state = "map"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cKH" = (
 /obj/machinery/button/access/exterior{
@@ -68386,15 +68411,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/medbay)
-"cKX" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/plating,
-/area/ship/exodus_pod_engineering)
 "cKY" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -68422,13 +68438,13 @@
 	pixel_y = 25;
 	tag_door = "engineering_shuttle_hatch"
 	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/computer/ship/engines{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/exodus_pod_engineering)
 "cLe" = (
 /obj/machinery/door/airlock/maintenance{
@@ -68468,27 +68484,39 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 8;
+	icon_state = "map_injector";
+	id_tag = "cooling_in";
+	name = "Coolant Injector";
+	pixel_y = 1;
+	power_rating = 30000;
+	use_power = 1;
+	volume_rate = 700
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
 "cLi" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/machinery/atmospherics/unary/vent_pump/engine{
+	dir = 4;
+	external_pressure_bound = 100;
+	external_pressure_bound_default = 0;
+	icon_state = "map_vent_in";
+	id_tag = "cooling_out";
+	initialize_directions = 1;
+	pump_direction = 0;
+	use_power = 1
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
-"cLj" = (
-/obj/machinery/computer/ship/helm{
-	dir = 8;
-	icon_state = "computer"
-	},
-/obj/effect/overmap/visitable/ship/landable/pod/engineering,
-/turf/simulated/floor/tiled/dark,
-/area/ship/exodus_pod_engineering)
 "cLk" = (
-/obj/structure/bed/chair{
-	dir = 4
+/obj/machinery/computer/ship/helm{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/exodus_pod_engineering)
 "cLm" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -68519,9 +68547,9 @@
 /area/engineering/engine_room)
 "cLs" = (
 /obj/machinery/power/solar_control{
+	dir = 4;
 	id_tag = "portsolar";
-	name = "Aft Port Solar Control";
-	track = 0
+	name = "Aft Port Solar Control"
 	},
 /obj/structure/cable/yellow,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -68529,26 +68557,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/portsolar)
-"cLt" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/ship/exodus_pod_engineering)
 "cLu" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /obj/machinery/light,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/computer/shuttle_control/explore/engineering{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/exodus_pod_engineering)
 "cLv" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -68572,6 +68586,16 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/machinery/atmospherics/unary/vent_pump/engine{
+	dir = 4;
+	external_pressure_bound = 100;
+	external_pressure_bound_default = 0;
+	icon_state = "map_vent_in";
+	id_tag = "cooling_out";
+	initialize_directions = 1;
+	pump_direction = 0;
+	use_power = 1
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
 "cLy" = (
@@ -68584,14 +68608,14 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cLz" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 5;
-	icon_state = "intact"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/engineering/engine_room)
 "cLA" = (
 /obj/machinery/atmospherics/valve/digital{
@@ -68631,20 +68655,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
-"cLE" = (
-/obj/machinery/door/airlock/hatch{
-	id_tag = "engine_access_hatch";
-	locked = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/turf/simulated/floor/plating,
-/area/engineering/engine_room)
 "cLF" = (
 /obj/machinery/door/airlock/hatch{
 	id_tag = "engine_access_hatch";
 	locked = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cLI" = (
@@ -68654,7 +68669,6 @@
 	pixel_x = -25;
 	pixel_y = 0
 	},
-/obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
 "cLJ" = (
@@ -68839,16 +68853,14 @@
 /turf/simulated/floor/plating,
 /area/quartermaster/miningdock)
 "cQw" = (
-/obj/machinery/computer/ship/engines{
-	dir = 4;
-	icon_state = "computer"
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 4
 	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/exodus_pod_engineering)
 "cSp" = (
 /obj/machinery/power/terminal{
@@ -68923,6 +68935,18 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/overmap/visitable/ship/landable/pod/engineering,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
 "fhb" = (
@@ -68935,6 +68959,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_mining)
+"fiB" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/engineering/engine_room)
 "fmR" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "mining_dock_inner";
@@ -69007,20 +69043,12 @@
 /area/hallway/primary/central_two)
 "gwY" = (
 /obj/effect/wallframe_spawn/reinforced,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "engpod_shutters"
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
@@ -69074,11 +69102,14 @@
 	output_attempt = 1;
 	output_level = 1e+006
 	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/effect/floor_decal/industrial/warning/full,
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "hLX" = (
@@ -69122,6 +69153,19 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled,
 /area/ship/exodus_pod_mining)
+"iIq" = (
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	id_tag = "SupermatterPort";
+	name = "Reactor Blast Door"
+	},
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/engineering/engine_room)
 "iKS" = (
 /obj/machinery/conveyor{
 	id_tag = "cargo_mining_conveyor"
@@ -69211,14 +69255,10 @@
 	name = "south bump";
 	pixel_y = -24
 	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
+/obj/structure/bed/chair{
+	dir = 4
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
 "miB" = (
@@ -69255,18 +69295,8 @@
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
 "mNK" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
+/obj/effect/paint/black,
+/turf/simulated/wall/titanium,
 /area/ship/exodus_pod_engineering)
 "mVl" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -69661,6 +69691,19 @@
 	},
 /turf/simulated/floor,
 /area/quartermaster/miningdock)
+"wpE" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/engineering/engine_room)
 "wAA" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -95604,7 +95647,7 @@ cfE
 cDi
 cDA
 cEk
-cEn
+ccQ
 cEk
 cGZ
 cBN
@@ -95861,7 +95904,7 @@ cfE
 cDt
 cpD
 cEn
-cEn
+ccQ
 cEn
 cHg
 cBN
@@ -97156,7 +97199,7 @@ cHD
 cpX
 cHb
 cHb
-cJo
+cHb
 bIM
 bIM
 cmc
@@ -97411,8 +97454,8 @@ cId
 cIG
 cHF
 cHZ
-cHb
-cHb
+cJJ
+cJM
 cHb
 cHb
 cHb
@@ -97669,7 +97712,7 @@ cID
 cHb
 cHY
 cHb
-cHb
+cHY
 cHb
 cHb
 cHb
@@ -97927,9 +97970,9 @@ cHb
 cHY
 cJF
 cJU
-cKu
-cKu
-cKu
+fiB
+fiB
+wpE
 cGt
 aaf
 aat
@@ -98439,8 +98482,8 @@ cGV
 cHu
 cJd
 cJt
-cJJ
-cLE
+cKu
+cLF
 cKw
 cLh
 cLh
@@ -98953,7 +98996,7 @@ cGX
 cHu
 cJh
 cJu
-cJM
+cLm
 cLF
 cKB
 cLi
@@ -99212,9 +99255,9 @@ cHb
 cHY
 cJL
 cGt
-cmM
-cmM
-cmM
+iIq
+iIq
+iIq
 cGt
 aaf
 crP
@@ -101002,11 +101045,11 @@ czA
 aaf
 cLU
 cLU
-ccp
+mNK
 cHB
+cJo
 cHB
-cHB
-ccp
+mNK
 cGt
 crU
 csL
@@ -101259,11 +101302,11 @@ byA
 byA
 byA
 clS
-ccp
-cKX
+mNK
+mNK
 gwY
 mNK
-ccp
+mNK
 cGt
 cqO
 csI
@@ -101516,12 +101559,12 @@ cqG
 crd
 crq
 byA
-ccp
+mNK
 crM
 hsk
 cQw
-ccp
-aQh
+mNK
+aph
 csq
 csR
 ctp
@@ -101777,8 +101820,8 @@ cKO
 cHE
 ffg
 lFM
-ccp
-aQh
+mNK
+aph
 csl
 csQ
 csQ
@@ -102030,12 +102073,12 @@ byF
 byF
 byF
 byA
-ccp
+mNK
 cLc
 cLk
 cLu
-ccp
-aQh
+mNK
+aph
 cIl
 cGR
 cGR
@@ -102287,12 +102330,12 @@ byF
 aaf
 cLU
 cKH
-ccp
-cpF
-cLj
-cLt
-bBe
-aQh
+mNK
+mNK
+mNK
+mNK
+mNK
+aph
 cIl
 cGR
 cGR
@@ -102544,12 +102587,12 @@ byA
 cLU
 cLU
 cLU
-ccp
-ccp
+cLU
 bBe
-cKX
-ccQ
-aQh
+bBe
+bBe
+cLU
+aph
 cIl
 cGR
 cGR
@@ -102803,9 +102846,9 @@ cea
 cea
 cea
 clW
-aQh
-aQh
-aQh
+aph
+aph
+aph
 aIo
 csA
 csX
