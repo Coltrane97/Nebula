@@ -1,8 +1,19 @@
 /datum/map/exodus
 	overmap_event_areas = 6
 	use_overmap = 1
-	num_exoplanets = 2
+	num_exoplanets = 1
 	planet_size = list(129,129)
+
+//Predefined planet for exodus
+
+/obj/effect/overmap/visitable/sector/exoplanet/chlorine/exodus
+	map_generators = list(/datum/random_map/noise/exoplanet/chlorine, /datum/random_map/noise/ore/rich)
+	ruin_tags_whitelist = RUIN_WRECK
+	ruin_tags_blacklist = null
+	fauna_types     = list()
+	megafauna_types = list()
+	start_x = 4
+	start_y = 4
 
 /obj/effect/overmap/visitable/ship/exodus
 	name = "Exodus Station"
