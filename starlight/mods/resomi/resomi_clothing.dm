@@ -1,77 +1,11 @@
 /datum/species/resomi
 	bodytype = BODYTYPE_RESOMI
 
-/datum/species/resomi/equip_survival_gear(var/mob/living/carbon/human/H,var/extendedtank = 1)
+/obj/item/clothing/Initialize()
 	. = ..()
-	qdel(H.shoes)
-	H.shoes = null
-	H.equip_to_slot(new /obj/item/clothing/shoes/resomi,   slot_shoes_str)
-	H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi/work, slot_w_uniform_str)
+	if((sprite_sheets ? sprite_sheets[BODYTYPE_RESOMI] : null) && item_state in icon_states(sprite_sheets[BODYTYPE_RESOMI])) bodytype_restricted += BODYTYPE_RESOMI
 
-/datum/species/resomi/New()
-	equip_adjust = list(
-		slot_head_str = list(
-			"[NORTH]" = list("x" = 1, "y" = -6),
-			"[EAST]" =  list("x" = 0,  "y" = -6),
-			"[WEST]" =  list("x" = 0,  "y" = -6),
-			"[SOUTH]" = list("x" = 1,  "y" = -6)
-		),
-		slot_back_str = list(
-			"[NORTH]" = list("x" = 0,  "y" = -5),
-			"[EAST]" =  list("x" = 3,  "y" = -5),
-			"[WEST]" =  list("x" = -3, "y" = -5),
-			"[SOUTH]" = list("x" = 0,  "y" = -5)
-		),
-		slot_belt_str = list(
-			"[NORTH]" = list("x" = 0,  "y" = -3),
-			"[EAST]" =  list("x" = 2,  "y" = -3),
-			"[WEST]" =  list("x" = -2, "y" = -3),
-			"[SOUTH]" = list("x" = 0,  "y" = -3)
-		),
-		slot_glasses_str = list(
-			"[NORTH]" = list("x" = 1,  "y" = -6),
-			"[EAST]" =  list("x" = 0,  "y" = -6),
-			"[WEST]" =  list("x" = 0,  "y" = -6),
-			"[SOUTH]" = list("x" = 0,  "y" = -6)
-		),
-		slot_l_hand_str = list(
-			"[NORTH]" = list("x" = 0,  "y" = -3),
-			"[EAST]" =  list("x" = 0,  "y" = -3),
-			"[WEST]" =  list("x" = 0, "y" = -3),
-			"[SOUTH]" = list("x" = 0, "y" = -3)
-		),
-		slot_r_hand_str = list(
-			"[NORTH]" = list("x" = 0, "y" = -3),
-			"[EAST]" =  list("x" = 0,  "y" = -3),
-			"[WEST]" =  list("x" = 0, "y" = -3),
-			"[SOUTH]" = list("x" = 0,  "y" = -3)
-		),
-		slot_wear_mask_str = list(
-			"[NORTH]" = list("x" = 0,  "y" = -4),
-			"[EAST]" =  list("x" = 2,  "y" = -4),
-			"[WEST]" =  list("x" = -2, "y" = -4),
-			"[SOUTH]" = list("x" = 0,  "y" = -4)
-		),
-		slot_wear_id_str = list(
-			"[NORTH]" = list("x" = 2,  "y" = -6),
-			"[EAST]" =  list("x" = 1,  "y" = -4),
-			"[WEST]" =  list("x" = 0,  "y" = 0),
-			"[SOUTH]" = list("x" = 0,  "y" = 0)
-		)
-	)
-	..()
-
-/obj/item/clothing/head/Initialize()
-	. = ..()
-	bodytype_restricted += BODYTYPE_RESOMI
-
-/obj/item/clothing/glasses/Initialize()
-	. = ..()
-	bodytype_restricted += BODYTYPE_RESOMI
-
-/obj/item/clothing/mask/Initialize()
-	. = ..()
-	bodytype_restricted += BODYTYPE_RESOMI
+//General, unique clothing
 
 //Uniforms
 
@@ -250,13 +184,7 @@
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering/resomi
 	boots = /obj/item/clothing/shoes/magboots/resomi
 
-//Shoes, gloves
-
-/obj/item/clothing/shoes/resomi
-	name = "small shoes"
-	icon = 'starlight/mods/resomi/icons/clothing/shoes.dmi'
-	color = COLOR_GRAY
-	bodytype_restricted = list(BODYTYPE_RESOMI)
+//shoes gloves
 
 /obj/item/clothing/shoes/magboots/resomi
 	name = "small magshoes"
