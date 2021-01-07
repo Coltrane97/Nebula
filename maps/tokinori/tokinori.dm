@@ -3,21 +3,23 @@
 // STARLIGHT MODS START
 
 	// General content mod
-	#include "../../starlight/mods/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
 	// Species mods
-	#include "../../starlight/mods/resomi/_resomi.dme"
-	#include "../../starlight/mods/tajaran/_tajaran.dme"
-	#include "../../starlight/mods/tritonian/_tritonian.dme"
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+
+	#include "../../starlight/mods/species/tajaran/_tajaran.dme" //temp
 
 	// A/V
-	#include "../../starlight/mods/interpost_sounds/_interpost_sounds.dme"
-	#include "../../starlight/mods/europa_floors/_europa_floors.dme"
+	#include "../../starlight/mods/content/europa_floors/_europa_floors.dme"
 
 // STARLIGHT MODS END
 
 	#include "../antag_spawn/heist/heist.dm"
 
+	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 

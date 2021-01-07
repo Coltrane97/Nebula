@@ -26,7 +26,7 @@
 	department_money = 7000
 	salary_modifier  = 0.5
 
-	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. SHIELDED AREAS: Dormitories, Exploration Shuttle, Medical Bay, Cargo Hold, Brig, Elevator. Please move to a shielded area until the radiation has passed."
+	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Please move to a shielded area until the radiation has passed."
 
 /datum/map/tokinori/get_map_info()
 	return "You're aboard the <b>[station_name],</b> a station floating in atmosphere of some desolate exoplanet. \

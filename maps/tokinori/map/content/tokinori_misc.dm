@@ -24,3 +24,12 @@
 
 /turf/space/sky/return_air()
 	return GLOB.using_map.get_exterior_atmosphere()
+
+/datum/map/tokinori
+	base_turf_by_z = list(
+	"1" = /turf/space/sky,
+	"2" = /turf/space/sky,
+	"3" = /turf/space/sky,
+	"4" = /turf/space/sky,
+	"5" = /turf/space/sky,
+	"6" = /turf/space/sky)
