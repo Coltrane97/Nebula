@@ -2329,6 +2329,7 @@
 #include "code\modules\mob\living\simple_animal\friendly\corgi.dm"
 #include "code\modules\mob\living\simple_animal\friendly\crab.dm"
 #include "code\modules\mob\living\simple_animal\friendly\farm_animals.dm"
+#include "code\modules\mob\living\simple_animal\friendly\koala.dm"
 #include "code\modules\mob\living\simple_animal\friendly\lizard.dm"
 #include "code\modules\mob\living\simple_animal\friendly\mouse.dm"
 #include "code\modules\mob\living\simple_animal\friendly\mushroom.dm"
@@ -3233,6 +3234,7 @@
 #include "maps\antag_spawn\wizard\wizard.dm"
 #include "maps\away\away_sites.dm"
 #include "maps\away_sites_testing\away_sites_testing_define.dm"
+#include "maps\constellation\constellation.dm"
 #include "maps\constellation\constellation_define.dm"
 #include "maps\example\example_define.dm"
 #include "maps\exodus\exodus_define.dm"
@@ -3270,6 +3272,5 @@
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
-#include "starlight\_global_vars\sound.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
