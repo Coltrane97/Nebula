@@ -8,8 +8,10 @@
 /obj/machinery/door/airlock/Initialize()
 	. = ..()
 	if(istype(src,/obj/machinery/door/airlock/external) || istype(src,/obj/machinery/door/airlock/multi_tile)) return
-	var/obj/machinery/door/firedoor/fire = locate() in loc
-	if(!fire) fire = new(loc)
+	var/obj/machinery/door/firedoor/fire                     = locate() in loc
+	var/obj/effect/floor_decal/industrial/hatch/yellow/decal = locate() in loc
+	if(!fire)  fire  = new(loc)
+	if(!decal) decal = new(loc)
 
 //autodirs
 /atom/proc/walldir(var/bake = TRUE, var/reverse = TRUE, var/offset = FALSE)
@@ -33,6 +35,14 @@
 			pixel_x = -24
 
 /obj/machinery/power/apc/Initialize()
+	walldir(bake = TRUE, reverse = TRUE)
+	. = ..()
+
+/obj/machinery/alarm/Initialize()
+	walldir(bake = TRUE, reverse = TRUE)
+	. = ..()
+
+/obj/machinery/firealarm/Initialize()
 	walldir(bake = TRUE, reverse = TRUE)
 	. = ..()
 
