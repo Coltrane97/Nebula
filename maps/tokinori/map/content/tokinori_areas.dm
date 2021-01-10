@@ -1,2 +1,3 @@
 /area/tokinori
-	name = "Area Placeholder"
+	name   = "Area Placeholder"
+	secure = 1
