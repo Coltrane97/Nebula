@@ -48,11 +48,13 @@
 	#include "constellation_shuttles.dm"
 	#include "constellation_spawnpoints.dm"
 	#include "constellation_unit_testing.dm"
+
 	#include "constellation-0.dmm"
 	#include "constellation-1.dmm"
 	#include "constellation-2.dmm"
 	#include "constellation-3.dmm"
 
+	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"
 	#include "jobs/command.dm"
 	#include "jobs/engineering.dm"

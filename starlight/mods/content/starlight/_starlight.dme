@@ -7,6 +7,7 @@
 #include "pixel_shift.dm"
 #include "synthetic_scanlines.dm"
 #include "tripping_over.dm"
+#include "votes.dm"
 #include "webhook_message_ooc.dm"
 #include "_overrides\backpack.dm"
 #include "_overrides\footsteps.dm"

@@ -314,6 +314,17 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
+"gI" = (
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "scraplock";
+	name = "EXTERNAL LOCKDOWN"
+	},
+/turf/simulated/floor/plating,
+/area/ship/trade/comms)
 "hh" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -345,6 +356,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/trade/command/bridge_upper)
+"hN" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "jy" = (
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 8
@@ -386,6 +401,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/solars)
+"lH" = (
+/obj/machinery/network/mainframe{
+	initial_network_id = "tradenet"
+	},
+/turf/simulated/floor/bluegrid,
+/area/ship/trade/comms)
 "ma" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	id_tag = "solars";
@@ -503,6 +524,13 @@
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /turf/simulated/floor/airless,
 /area/space)
+"sR" = (
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "sX" = (
 /obj/machinery/door/window/westleft,
 /obj/structure/cable{
@@ -518,6 +546,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/comms)
+"ts" = (
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/obj/machinery/computer/modular/preset/full{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/ship/trade/comms)
 "tJ" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/trade/command/bridge_upper)
@@ -532,16 +572,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/solars)
-"uT" = (
-/obj/random/shoes,
-/obj/machinery/alarm{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
-	pixel_y = -24
-	},
-/turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
 "vi" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -562,6 +592,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
+"vD" = (
+/obj/random/trash,
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "wa" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
@@ -591,9 +625,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
 "wq" = (
-/obj/item/stack/material/rods,
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/stool/padded,
+/obj/item/stack/material/rods,
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_unused)
 "xF" = (
@@ -616,26 +650,16 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/solars)
 "yA" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
-	},
-/obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = -30
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/table/rack,
-/obj/item/storage/toolbox/electrical,
-/obj/item/multitool,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/comms)
 "yQ" = (
 /obj/machinery/airlock_sensor{
@@ -692,6 +716,13 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
+"Bp" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1;
+	level = 2
+	},
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "BD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
@@ -756,6 +787,23 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/engineering/solars)
+"Eg" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1;
+	level = 2
+	},
+/obj/item/radio/intercom{
+	dir = 1;
+	pixel_y = -30
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/rack,
+/obj/item/storage/toolbox/electrical,
+/obj/item/multitool,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/ship/trade/comms)
 "Fe" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -808,6 +856,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/trade/command/bridge_upper)
+"IH" = (
+/obj/random/shoes,
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "IY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/industrial/warning{
@@ -819,10 +871,29 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
 "Jo" = (
-/obj/machinery/network/mainframe{
-	initial_network_id = "tradenet"
-	},
+/obj/machinery/network/message_server,
 /turf/simulated/floor/bluegrid,
+/area/ship/trade/comms)
+"Jt" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/closet/crate,
+/obj/item/stock_parts/computer/hard_drive/cluster/fullhouse{
+	name = "cluster hard drive (BACKUP)"
+	},
+/obj/item/stock_parts/computer/hard_drive/portable/merchant,
+/obj/item/stock_parts/computer/hard_drive/portable,
+/obj/item/stock_parts/computer/hard_drive/portable,
+/obj/item/stock_parts/computer/network_card/advanced,
+/obj/item/stock_parts/computer/drive_slot,
+/obj/item/stock_parts/computer/hard_drive/advanced,
+/obj/item/stock_parts/computer/processor_unit,
+/obj/item/stock_parts/computer/processor_unit,
+/obj/item/stock_parts/computer/hard_drive/small,
+/obj/item/stock_parts/computer/hard_drive/small,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/comms)
 "Ko" = (
 /obj/machinery/light/small{
@@ -853,10 +924,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/trade/command/bridge_upper)
 "KS" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/stool/padded,
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_unused)
@@ -1036,14 +1104,19 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "Tx" = (
-/obj/machinery/light{
-	dir = 1
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_upper)
+"Tz" = (
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "scraplock";
+	name = "EXTERNAL LOCKDOWN"
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "Ua" = (
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -1067,6 +1140,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
+"Vb" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "We" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -1078,6 +1155,18 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
+"Wf" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/ship/trade/comms)
+"Wi" = (
+/turf/simulated/floor/plating,
+/area/ship/trade/comms)
 "Xu" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -1093,7 +1182,6 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "XF" = (
-/obj/random/trash,
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_unused)
 "XQ" = (
@@ -1107,6 +1195,13 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/solars)
+"Yk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/bluegrid,
+/area/ship/trade/comms)
 "Yq" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -1140,33 +1235,19 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/engineering/solars)
 "ZD" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/power/apc{
-	dir = 1;
+	dir = 4;
 	name = "Communications APC"
 	},
 /obj/structure/cable{
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/closet/crate,
-/obj/item/stock_parts/computer/hard_drive/cluster/fullhouse{
-	name = "cluster hard drive (BACKUP)"
-	},
-/obj/item/stock_parts/computer/hard_drive/portable/merchant,
-/obj/item/stock_parts/computer/hard_drive/portable,
-/obj/item/stock_parts/computer/hard_drive/portable,
-/obj/item/stock_parts/computer/network_card/advanced,
-/obj/item/stock_parts/computer/drive_slot,
-/obj/item/stock_parts/computer/hard_drive/advanced,
-/obj/item/stock_parts/computer/processor_unit,
-/obj/item/stock_parts/computer/processor_unit,
-/obj/item/stock_parts/computer/hard_drive/small,
-/obj/item/stock_parts/computer/hard_drive/small,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/comms)
 "ZT" = (
 /obj/structure/ladder,
@@ -1189,15 +1270,6 @@
 /turf/simulated/open,
 /area/ship/trade/command/bridge_upper)
 "ZU" = (
-/obj/machinery/alarm{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
-	pixel_y = -32
-	},
-/obj/machinery/computer/modular/preset/full{
-	dir = 4
-	},
 /turf/simulated/floor/bluegrid,
 /area/ship/trade/comms)
 
@@ -3923,9 +3995,9 @@ ax
 ax
 Ob
 Ob
+Wi
+Wi
 Ob
-Ob
-ax
 ax
 ax
 ax
@@ -4005,10 +4077,10 @@ ax
 Ob
 Ob
 Ob
+gI
+gI
 Ob
 Ob
-Ob
-ax
 ax
 ax
 ax
@@ -4085,12 +4157,12 @@ aa
 aa
 ax
 Ob
-Ob
+lH
 ds
 Jo
 ZU
+ts
 Ob
-ax
 ax
 ax
 ax
@@ -4167,12 +4239,12 @@ aa
 ax
 ax
 Ob
-Ob
-Tx
+Wf
 Su
 Su
+Su
+Yk
 Ob
-ax
 ax
 ax
 ax
@@ -4249,11 +4321,11 @@ aa
 ax
 ax
 Ob
-Ob
+Jt
 ZD
 sX
 yA
-Ob
+Eg
 tJ
 tJ
 Nv
@@ -4412,8 +4484,8 @@ aa
 aa
 ax
 ax
-tJ
-tJ
+Tx
+SQ
 mn
 hJ
 Dg
@@ -4577,11 +4649,11 @@ aa
 ax
 ax
 zY
-zY
+XF
 oq
 gw
-uT
-zY
+sR
+IH
 tJ
 tJ
 Nv
@@ -4659,12 +4731,12 @@ aa
 ax
 ax
 br
-br
+hN
 wq
 zn
 KS
+Bp
 zY
-ax
 ax
 ax
 ax
@@ -4741,12 +4813,12 @@ aa
 aa
 ax
 zY
-zY
+Vb
 cO
 jz
 XF
+vD
 zY
-ax
 ax
 ax
 ax
@@ -4825,10 +4897,10 @@ ax
 zY
 zY
 zY
+Tz
+Tz
 zY
 zY
-zY
-ax
 ax
 ax
 ax
@@ -4907,9 +4979,9 @@ ax
 ax
 zY
 zY
+XF
+XF
 zY
-zY
-ax
 ax
 ax
 ax

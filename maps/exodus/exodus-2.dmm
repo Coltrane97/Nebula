@@ -59367,7 +59367,6 @@
 /turf/simulated/floor/tiled,
 /area/engineering/locker_room)
 "ciR" = (
-/obj/structure/closet/secure_closet/medical2,
 /obj/machinery/light_switch{
 	pixel_x = -22;
 	pixel_y = 0
@@ -59461,7 +59460,6 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery2)
 "cje" = (
-/obj/structure/closet/secure_closet/medical2,
 /obj/machinery/light_switch{
 	pixel_x = 22;
 	pixel_y = 0
@@ -62884,7 +62882,6 @@
 /area/medical/surgery)
 "cqk" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/closet/secure_closet/medical2,
 /turf/simulated/floor/tiled/freezer,
 /area/medical/surgery)
 "cql" = (
@@ -62920,7 +62917,6 @@
 /area/medical/surgery2)
 "cqp" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/closet/secure_closet/medical2,
 /turf/simulated/floor/tiled/freezer,
 /area/medical/surgery2)
 "cqq" = (
@@ -63312,7 +63308,7 @@
 /area/medical/surgery)
 "crs" = (
 /obj/machinery/door/blast/regular{
-	dir = 4;
+	dir = 2;
 	id_tag = "disvent";
 	name = "Incinerator Vent"
 	},
