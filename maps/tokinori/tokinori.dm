@@ -9,7 +9,7 @@
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../starlight/mods/species/tajaran/_tajaran.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
 
 // STARLIGHT MODS END
 
@@ -33,11 +33,14 @@
 	#include "../away/yacht/yacht.dm"
 
 	#include "map/content/tokinori_areas.dm"
+	#include "map/content/tokinori_machinery.dm"
 	#include "map/content/tokinori_misc.dm"
 	#include "map/content/tokinori_presets.dm"
 
 	#include "overmap/tokinori_overmap.dm"
 	#include "overmap/tokinori_shuttles.dm"
+
+	#include "map/tokinori-3.dmm"
 
 	#define USING_MAP_DATUM /datum/map/tokinori
 

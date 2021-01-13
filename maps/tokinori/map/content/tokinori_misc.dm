@@ -3,7 +3,7 @@
 /datum/controller/subsystem/skybox/Initialize()
 	skybox_icon         = 'maps/tokinori/media/sky.dmi'
 	background_icon     = "sky"
-	background_color    = "#4b4338"
+	background_color    = "#26251b" //"#36382a" //"#4b4338"
 	use_stars           = FALSE
 	use_overmap_details = FALSE
 	. = ..()
@@ -13,13 +13,17 @@
 	icon_state       = "map"
 	dynamic_lighting = 1
 
+/turf/space/sky/Initialize()
+	. = ..()
+	if(prob(5)) set_light(1, 0.1, rand(6,8), 2, COLOR_WARM_YELLOW)
+
 /datum/map/tokinori
-	exterior_atmos_temp             = T0C - 90
+	exterior_atmos_temp             = T0C - 93
 	exterior_atmos_composition      = list(
-		/decl/material/gas/carbon_dioxide = 0.67,
-		/decl/material/gas/nitrogen       = 0.20,
-		/decl/material/gas/argon          = 0.12,
-		/decl/material/gas/krypton        = 0.01
+		/decl/material/gas/carbon_dioxide = 0.67 * 100,
+		/decl/material/gas/nitrogen       = 0.20 * 100,
+		/decl/material/gas/argon          = 0.12 * 100,
+		/decl/material/gas/krypton        = 0.01 * 100
 	)
 
 /turf/space/sky/return_air()
