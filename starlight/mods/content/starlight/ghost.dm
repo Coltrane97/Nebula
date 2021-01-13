@@ -7,8 +7,3 @@
 		announce_ghost_joinleave(ghostize(1))
 	else
 		succumb()
-
-/mob/observer/ghost/Login()
-	..()
-	if(ghost_image)
-		ghost_image.filters = filter(type = "blur", size = 3)

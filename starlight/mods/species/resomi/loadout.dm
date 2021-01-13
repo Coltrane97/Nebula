@@ -31,3 +31,23 @@
 /datum/gear/resomi/space
 	display_name = "resomi pressure suit"
 	path         = /obj/item/clothing/under/resomi/space
+
+/datum/gear/resomi/polychromic_cloak
+	display_name = "resomi polychromic cloak"
+	path         = /obj/item/clothing/suit/storage/hooded/polychromic
+	flags        = GEAR_HAS_COLOR_SELECTION
+	slot         = slot_wear_suit_str
+
+/datum/gear/resomi/shoes
+	display_name = "resomi footwear selection"
+	path         = /obj/item/clothing/shoes/resomi
+	flags        = GEAR_HAS_COLOR_SELECTION
+	slot         = slot_shoes_str
+
+/datum/gear/resomi/shoes/New()
+	..()
+	var/list/footwear = list()
+	footwear["koishi"]      = /obj/item/clothing/shoes/resomi/footwraps/socks_resomi
+	footwear["footwraps"]    = /obj/item/clothing/shoes/resomi/footwraps
+	footwear["small shoes"] = /obj/item/clothing/shoes/resomi
+	gear_tweaks += new/datum/gear_tweak/path(footwear)

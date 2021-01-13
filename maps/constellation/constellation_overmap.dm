@@ -1,5 +1,5 @@
 /obj/effect/overmap/visitable/ship/constellation
-	name = "Tradeship Constellation Alpha"
+	name = "Tradeship Constellation"
 	color = "#00ffff"
 	vessel_mass = 2800
 	max_speed = 1/(2 SECONDS)

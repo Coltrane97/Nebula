@@ -1,5 +1,66 @@
 //Contains resomi-unique clothing, TODO: cloaks and stuff
 
+/obj/item/clothing/suit/storage/hooded/polychromic
+	name = "polychromic cloak"
+	desc = "Resomi cloak. Seems to be coated with polychrome paint. There is also a sewn hood. DO NOT MIX WITH EMP!"
+	icon = 'starlight/mods/species/resomi/icons/clothing/obj_suit.dmi'
+	icon_state = "polychromic"
+	hoodtype = /obj/item/clothing/head/winterhood/polychromic_hood
+	action_button_name = "Toggle Hood"
+	slots = 4
+	bodytype_restricted = list(BODYTYPE_RESOMI)
+	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY
+
+/obj/item/clothing/suit/storage/hooded/polychromic/Initialize()
+	. = ..()
+	sprite_sheets = list(
+		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_suit.dmi'
+	)
+
+/obj/item/clothing/suit/storage/hooded/polychromic/verb/change_color()
+	set name = "Change Cloak Color"
+	set category = "Object"
+	set desc = "Change the color of the cloak."
+	set src in usr
+
+	if(usr.incapacitated())
+		return
+
+	var/new_color = input(usr, "Pick a new color", "Cloak Color", color) as color|null
+	if(!new_color || new_color == color || usr.incapacitated())
+		return
+	color = new_color
+	hood.color = color
+	hood.update_icon()
+	update_icon()
+
+/obj/item/clothing/suit/storage/hooded/polychromic/on_update_icon()
+	..()
+	hood.color = color
+	update_clothing_icon()
+	hood.update_clothing_icon()
+
+/obj/item/clothing/suit/storage/hooded/polychromic/emp_act()
+	color = null
+	hood.color = null
+	update_icon()
+
+/obj/item/clothing/head/winterhood/polychromic_hood
+	name = "hood"
+	icon = 'starlight/mods/species/resomi/icons/clothing/obj_head.dmi'
+	icon_state = "polychromic_hood"
+	bodytype_restricted = list(BODYTYPE_RESOMI)
+	desc = "It's hood that covers the head."
+	flags_inv = BLOCKHAIR | HIDEEARS
+	body_parts_covered = SLOT_HEAD
+	canremove = 0
+
+/obj/item/clothing/head/winterhood/polychromic_hood/Initialize()
+	. = ..()
+	sprite_sheets = list(
+		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_head.dmi'
+	)
+
 /obj/item/clothing/under/resomi
 	name = "small jumpsuit"
 	desc = "A small jumpsuit. Looks pretty much perfect to fit a resomi."
@@ -66,6 +127,18 @@
 		last.overlays += I
 
 //Shoes
+/obj/item/clothing/shoes/resomi/footwraps
+	name = "cloth footwraps"
+	desc = "A roll of treated canvas used for wrapping paws"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/footwraps.dmi'
+	force = 0
+	item_flags = ITEM_FLAG_SILENT
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/clothing/shoes/resomi/footwraps/socks_resomi
+	name = "koishi"
+	desc = "Looks like socks but with toe holes and thick sole."
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/koishi.dmi'
 
 /obj/item/clothing/shoes/resomi
 	name = "small shoes"

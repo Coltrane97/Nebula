@@ -48,7 +48,10 @@
 /obj/item/stock_parts/circuitboard/sleeper/stasis
 	name           = T_BOARD("sleeping pod")
 	build_path     = /obj/machinery/sleeper/stasis
-	req_components = list(/obj/item/stock_parts/scanning_module = 2, /obj/item/stock_parts/manipulator = 2)
+	req_components = list(
+		/obj/item/stock_parts/scanning_module = 2, 
+		/obj/item/stock_parts/manipulator = 2
+	)
 
 /datum/fabricator_recipe/imprinter/circuit/stasis
 	path = /obj/item/stock_parts/circuitboard/sleeper/stasis
@@ -77,7 +80,7 @@
 
 /obj/machinery/power/supermatter/energy/examine(var/mob/user)
 	. = ..()
-	to_chat(user,SPAN_NOTICE("It is [(thermal_release_modifier > 0) ? FONT_COLORED(COLOR_RED, "heating") : FONT_COLORED(COLOR_CYAN, "cooling")] type."))
+	to_chat(user, SPAN_NOTICE("It is [(thermal_release_modifier > 0) ? FONT_COLORED(COLOR_RED, "heating") : FONT_COLORED(COLOR_CYAN, "cooling")] type."))
 
 /obj/machinery/power/supermatter/energy/attack_hand(var/mob/user)
 	visible_message(SPAN_NOTICE("[user] gently taps \the [src]."))
