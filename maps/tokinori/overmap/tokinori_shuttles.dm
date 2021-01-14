@@ -7,7 +7,8 @@
 	shuttle = "Exploration Shuttle"
 
 /area/tokinori/shuttle
-	name = "Exploration Shuttle"
+	name       = "Exploration Shuttle"
+	icon_state = "shuttle"
 
 /datum/shuttle/autodock/overmap/tokinori_shuttle
 	name             = "Exploration Shuttle"

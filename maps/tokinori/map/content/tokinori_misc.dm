@@ -1,13 +1,5 @@
 //Sky
 
-/datum/controller/subsystem/skybox/Initialize()
-	skybox_icon         = 'maps/tokinori/media/sky.dmi'
-	background_icon     = "sky"
-	background_color    = "#26251b" //"#36382a" //"#4b4338"
-	use_stars           = FALSE
-	use_overmap_details = FALSE
-	. = ..()
-
 /turf/space/sky
 	name             = "sky"
 	icon_state       = "map"

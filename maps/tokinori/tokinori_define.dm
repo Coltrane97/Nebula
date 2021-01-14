@@ -6,6 +6,7 @@
 	station_levels = list(1, 2, 3, 4, 5, 6)
 	contact_levels = list(1, 2, 3, 4, 5, 6)
 	player_levels  = list(1, 2, 3, 4, 5, 6)
+	sealed_levels  = list(1, 2, 3, 4, 5, 6)
 
 	station_name   = "Tokinori"
 	station_short  = "Tokinori"
