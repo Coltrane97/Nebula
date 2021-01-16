@@ -1,0 +1,4 @@
+#ifdef MODPACK_UTILITY_FRAMES
+#include "_exosuit.dm"
+#include "species.dm"
+#endif

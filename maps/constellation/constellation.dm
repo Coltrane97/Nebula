@@ -15,6 +15,7 @@
 
 	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../starlight/mods/species/exosuit/_exosuit.dme" //submodpack
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
