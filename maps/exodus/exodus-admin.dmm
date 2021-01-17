@@ -2787,7 +2787,6 @@
 	pixel_y = 1
 	},
 /obj/item/stack/nanopaste,
-/obj/item/tank/anesthetic,
 /obj/item/clothing/mask/breath/medical,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,

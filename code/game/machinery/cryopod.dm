@@ -15,7 +15,6 @@
 	icon_state = "cellconsole"
 	density = 0
 	interact_offline = 1
-	light_color = "#00bf00"
 	var/mode = null
 
 	//Used for logging people entering cryosleep and important items they are carrying.
@@ -36,7 +35,7 @@
 	desc = "An interface between crew and the robotic storage systems."
 	icon = 'icons/obj/robot_storage.dmi'
 	icon_state = "console"
-	light_color = "#00bfe1"
+
 	storage_type = "cyborgs"
 	storage_name = "Robotic Storage Control"
 	allow_items = 0
@@ -145,10 +144,6 @@
 	density = 1
 	anchored = 1
 	dir = WEST
-
-	light_max_bright = 0.25
-	light_outer_range = 2
-	light_color="#00bf00"
 
 	var/base_icon_state = "body_scanner_0"
 	var/occupied_icon_state = "body_scanner_1"
@@ -472,12 +467,7 @@
 			return
 
 		attempt_enter(grab.affecting, user)
-
-/obj/machinery/cryopod/relaymove()
-	if(occupant.incapacitated())
-		return
-	eject()
-	. = ..()
+	return ..()
 
 /obj/machinery/cryopod/verb/eject()
 	set name = "Eject Pod"
@@ -486,9 +476,7 @@
 	if(usr.stat != 0)
 		return
 
-//	icon_state = base_icon_state
-
-	light_outer_range = 1
+	icon_state = base_icon_state
 
 	//Eject any items that aren't meant to be in the pod.
 	var/list/items = contents - component_parts
@@ -502,7 +490,6 @@
 	add_fingerprint(usr)
 
 	SetName(initial(name))
-	icon_state = base_icon_state
 	return
 
 /obj/machinery/cryopod/verb/move_inside()
@@ -548,11 +535,7 @@
 		occupant.client.eye = src.occupant.client.mob
 		occupant.client.perspective = MOB_PERSPECTIVE
 
-	if(not_turf_contains_dense_objects(get_turf(get_step(loc, dir))))
-		occupant.dropInto(get_step(loc, dir))
-	else
-		occupant.dropInto(loc)
-
+	occupant.dropInto(loc)
 	set_occupant(null)
 
 	icon_state = base_icon_state

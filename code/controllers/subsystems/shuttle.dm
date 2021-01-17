@@ -151,13 +151,11 @@ SUBSYSTEM_DEF(shuttle)
 	for (var/obj/effect/overmap/visitable/ship/ship in ships)
 		if (ship.name == name)
 			return ship
-	return null
 
 /datum/controller/subsystem/shuttle/proc/ship_by_type(type)
 	for (var/obj/effect/overmap/visitable/ship/ship in ships)
 		if (ship.type == type)
 			return ship
-	return null
 
 /datum/controller/subsystem/shuttle/proc/docking_beacons_by_z(z_levels)
 	. = list()

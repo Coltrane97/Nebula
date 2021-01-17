@@ -11,7 +11,7 @@
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../mods/species/tajaran/_tajaran.dme"
 
-//	#include "../../starlight/mods/content/europa_floors/_europa_floors.dme"
+	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
 // STARLIGHT MODS END
 
@@ -41,6 +41,7 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/yacht/yacht.dm"
 
+	#include "jobs/_goals.dm"
 	#include "jobs/captain.dm"
 	#include "jobs/civilian.dm"
 	#include "jobs/engineering.dm"
@@ -63,7 +64,7 @@
 	#include "exodus_elevator.dm"
 	#include "exodus_jobs.dm"
 	#include "exodus_loadout.dm"
-	#include "exodus_lobby.dm"
+	#include "exodus_lobby_tracks.dm"
 	#include "exodus_overmap.dm"
 	#include "exodus_setup.dm"
 	#include "exodus_shuttles.dm"

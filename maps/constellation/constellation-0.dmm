@@ -1695,6 +1695,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/bar)
+"Ag" = (
+/obj/machinery/door/firedoor/autoset,
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/ship/trade/loading_bay)
 "AG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -5699,7 +5704,7 @@ Ua
 QW
 Pa
 iy
-yO
+Ag
 wT
 wS
 xJ
@@ -5781,7 +5786,7 @@ rV
 fq
 qt
 iy
-yO
+Ag
 gN
 Yk
 RL
@@ -5863,7 +5868,7 @@ Iu
 LO
 Pq
 aT
-yO
+Ag
 gN
 zf
 Yd

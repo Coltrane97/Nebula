@@ -4,7 +4,7 @@
 	color = "#a08444"
 	planetary_area = /area/exoplanet/desert
 	rock_colors = list(COLOR_BEIGE, COLOR_PALE_YELLOW, COLOR_GRAY80, COLOR_BROWN)
-	plant_colors = list("#efdd6f","#7b4a12","#e49135","#ba6222","#5c755e","#420d22")
+	plant_colors = list("#efdd6f","#7b4a12","#e49135","#ba6222","#5c755e","#701732")
 	map_generators = list(/datum/random_map/noise/exoplanet/desert, /datum/random_map/noise/ore/rich)
 	surface_color = "#d6cca4"
 	water_color = null
@@ -18,15 +18,8 @@
 		lightlevel = rand(5,10)/10	//deserts are usually :lit:
 	..()
 
-/obj/effect/overmap/visitable/sector/exoplanet/desert/generate_atmosphere()
-	..()
-	if(atmosphere)
-		var/limit = 1000
-		if(habitability_class <= HABITABILITY_OKAY)
-			var/decl/species/human/H = /decl/species/human
-			limit = initial(H.heat_level_1) - rand(1,10)
-		atmosphere.temperature = min(T20C + rand(20, 100), limit)
-		atmosphere.update_values()
+/obj/effect/overmap/visitable/sector/exoplanet/desert/get_target_temperature()
+	return T20C + rand(20, 100)
 
 /obj/effect/overmap/visitable/sector/exoplanet/desert/adapt_seed(var/datum/seed/S)
 	..()
@@ -47,6 +40,7 @@
 	land_type = /turf/exterior/sand
 
 	flora_prob = 5
+	grass_prob = 2
 	large_flora_prob = 0
 
 /datum/random_map/noise/exoplanet/desert/get_additional_spawns(var/value, var/turf/T)

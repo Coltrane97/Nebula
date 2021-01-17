@@ -14,6 +14,7 @@
 	#include "..\..\mods\species\utility_frames\_utility_frames.dme"
 	#include "..\..\mods\species\tajaran\_tajaran.dme"
 	#include "..\..\mods\species\tritonian\_tritonian.dme"
+	#include "..\..\mods\species\neocorvids\_neocorvids.dme"
 
 // STARLIGHT MODS START
 
@@ -26,7 +27,7 @@
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 
 	// Other
-	#include "../../starlight/mods/content/europa_floors/_europa_floors.dme"
+	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
 // STARLIGHT MODS END
 
