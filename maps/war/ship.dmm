@@ -1,0 +1,133 @@
+"a" = (/turf/space,/area/space)
+"b" = (/obj/machinery/sleeper/standard,/obj/item/storage/firstaid/regular,/turf/simulated/floor/plating,/area/ship/main)
+"c" = (/obj/structure/catwalk,/obj/random/mre,/obj/random/mre,/obj/random/mre,/obj/structure/iv_drip,/turf/simulated/floor/plating,/area/ship/main)
+"d" = (/obj/structure/grille/broken,/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/reinforced/airless,/area/ship/main)
+"e" = (/obj/structure/hygiene/sink{dir = 1; pixel_y = 32},/turf/simulated/floor/plating,/area/ship/main)
+"f" = (/obj/machinery/door/firedoor,/obj/effect/landmark/scorcher,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/ship/main)
+"g" = (/obj/structure/bed/roller,/obj/random/single/textbook,/obj/random/single/textbook,/obj/random/single/textbook,/obj/machinery/light/small/red{dir = 4},/obj/random/trash,/obj/item/bedsheet,/turf/simulated/floor/plating,/area/ship/main)
+"h" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/main)
+"i" = (/obj/machinery/material_processing/smeltery,/turf/simulated/floor/plating,/area/ship/main)
+"j" = (/obj/structure/catwalk,/obj/machinery/cryopod{dir = 1},/turf/simulated/floor/plating,/area/ship/main)
+"k" = (/obj/structure/table/standard,/obj/structure/catwalk,/obj/machinery/microwave,/turf/simulated/floor/plating,/area/ship/main)
+"l" = (/obj/structure/handrail{dir = 4},/obj/random/trash,/obj/random/drinkingglass,/turf/simulated/floor/plating,/area/ship/main)
+"m" = (/obj/item/clothing/suit/space,/obj/item/clothing/head/helmet/space,/obj/structure/handrail,/obj/structure/hygiene/toilet{dir = 8},/turf/simulated/floor/plating,/area/ship/main)
+"n" = (/obj/structure/catwalk,/obj/machinery/light/small/red,/obj/structure/handrail{dir = 8},/obj/item/chems/ivbag/blood/OMinus,/obj/item/chems/ivbag/blood/OMinus,/obj/item/chems/ivbag/blood/OMinus,/obj/item/chems/ivbag/blood/OMinus,/obj/random/junk,/obj/random/junk,/turf/simulated/floor/plating,/area/ship/main)
+"o" = (/obj/effect/landmark/test/space_turf,/turf/space,/area/space)
+"p" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/plating,/area/ship/main)
+"q" = (/obj/structure/catwalk,/obj/random/tool,/obj/random/tool,/obj/random/tool,/obj/structure/bed/padded,/obj/item/bedsheet,/turf/simulated/floor/plating,/area/ship/main)
+"r" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/ship/main)
+"s" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/handrail{dir = 4},/obj/item/stool/padded,/obj/item/blueprints,/obj/item/storage/ore,/obj/item/storage/ore,/obj/item/pickaxe/drill,/turf/simulated/floor/plating,/area/ship/main)
+"t" = (/obj/machinery/light/small/red{dir = 8},/obj/effect/landmark/scorcher,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/ship/main)
+"u" = (/obj/item/stool/padded,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/main)
+"v" = (/obj/item/stool/padded,/obj/structure/handrail{dir = 8},/obj/structure/catwalk,/obj/random/junk,/turf/simulated/floor/plating,/area/ship/main)
+"w" = (/obj/random/junk,/obj/random/trash,/obj/machinery/light/small/red{dir = 1},/turf/simulated/floor/plating,/area/ship/main)
+"x" = (/obj/machinery/computer/ship/engines,/obj/structure/catwalk,/obj/machinery/light/small/red{dir = 1},/turf/simulated/floor/plating,/area/ship/main)
+"y" = (/obj/machinery/portable_atmospherics/powered/scrubber,/obj/item/clothing/mask/gas/half,/turf/simulated/floor/plating,/area/ship/main)
+"z" = (/obj/effect/landmark/test/safe_turf,/obj/effect/decal/cleanable/generic,/turf/simulated/floor/plating,/area/ship/main)
+"A" = (/obj/machinery/computer/ship/helm,/turf/simulated/floor/plating,/area/ship/main)
+"B" = (/obj/item/stool/padded,/obj/random/junk,/obj/effect/decal/cleanable/blood/oil,/turf/simulated/floor/plating,/area/ship/main)
+"C" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/plating,/area/ship/main)
+"E" = (/turf/simulated/wall/prepainted,/area/ship/main)
+"F" = (/obj/machinery/power/port_gen/pacman,/obj/structure/cable{icon_state = "0-8"},/obj/item/stack/material/deuterium/fifty,/obj/item/stack/material/deuterium/fifty,/obj/item/wrench,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/plating,/area/ship/main)
+"G" = (/obj/structure/closet/crate,/obj/item/storage/firstaid/regular,/obj/item/storage/firstaid/surgery,/obj/random/medical/lite,/obj/random/medical/lite,/obj/machinery/computer/cryopod{pixel_y = 32},/obj/random/soap,/obj/random/soap,/turf/simulated/floor/plating,/area/ship/main)
+"H" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable{icon_state = "0-2"},/obj/item/storage/toolbox/mechanical,/obj/item/clothing/gloves/insulated,/turf/simulated/floor/plating,/area/ship/main)
+"I" = (/obj/machinery/shipsensors,/turf/simulated/floor/reinforced/airless,/area/ship/main)
+"J" = (/obj/machinery/atmospherics/unary/engine{dir = 1},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/plating,/area/ship/main)
+"K" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/structure/catwalk,/obj/machinery/portable_atmospherics/canister/empty/oxygen,/obj/item/inflatable_dispenser,/obj/machinery/light/small/red,/turf/simulated/floor/plating,/area/ship/main)
+"L" = (/obj/machinery/fabricator/industrial,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/main)
+"M" = (/obj/effect/overmap/visitable/ship/landable/main,/obj/structure/handrail{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/main)
+"N" = (/obj/structure/catwalk,/obj/machinery/light/small/red,/obj/machinery/computer/ship/sensors{dir = 1},/turf/simulated/floor/plating,/area/ship/main)
+"O" = (/obj/structure/inflatable/door,/turf/simulated/floor/plating,/area/ship/main)
+"P" = (/obj/machinery/computer/shuttle_control/explore/main,/obj/structure/catwalk,/obj/machinery/light/small/red{dir = 8},/turf/simulated/floor/plating,/area/ship/main)
+"Q" = (/obj/item/tank/oxygen/yellow,/obj/machinery/light/small/red{dir = 1},/obj/effect/decal/cleanable/ash,/turf/simulated/floor/plating,/area/ship/main)
+"S" = (/obj/structure/grille,/turf/simulated/floor/reinforced/airless,/area/ship/main)
+"T" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/grille,/turf/simulated/floor/reinforced/airless,/area/ship/main)
+"U" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/obj/random/trash,/obj/random/drinkingglass,/turf/simulated/floor/plating,/area/ship/main)
+"V" = (/obj/machinery/atmospherics/unary/tank/oxygen,/turf/simulated/floor/plating,/area/ship/main)
+"W" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/powered/scrubber/huge,/obj/structure/window/reinforced,/obj/machinery/light/small/red{dir = 1},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/plating,/area/ship/main)
+"X" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/ship/main)
+"Y" = (/turf/simulated/wall/r_wall,/area/ship/main)
+"Z" = (/obj/structure/catwalk,/obj/structure/bed/roller,/obj/item/bedsheet,/obj/item/crowbar/red,/obj/effect/landmark{name = "JoinLateCryo"},/turf/simulated/floor/plating,/area/ship/main)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaShPAVhSaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIhMuKhSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhECEhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahxbEteiGhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaEqBCzZcvhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaELnEljkNEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaEEEEfEEEEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaEHwCXCQmhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahsFEOEyUhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahgEEOEEhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahrEYpYEWpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahJETdTEJhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
