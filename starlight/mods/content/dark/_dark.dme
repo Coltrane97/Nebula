@@ -1,0 +1,18 @@
+#ifndef MODPACK_THEME_DARK
+#define MODPACK_THEME_DARK
+// BEGIN_INCLUDE
+#include "_dark.dm"
+#include "machinery/airlock.dm"
+#include "machinery/light.dm"
+#include "mob/living.dm"
+#include "items/power.dm"
+#include "../europa_tileset/_europa_tileset.dme"
+// END_INCLUDE
+#endif
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES

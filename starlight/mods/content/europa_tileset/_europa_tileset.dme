@@ -4,6 +4,7 @@
 #include "europa_tileset.dm"
 #include "flooring.dm"
 #include "flooring_premade.dm"
+#include "materials.dm"
 // END_INCLUDE
 #endif
 // BEGIN_INTERNALS
