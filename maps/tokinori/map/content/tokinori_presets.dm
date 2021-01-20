@@ -5,13 +5,15 @@
 	var/obj/machinery/door/firedoor/fire = locate() in loc
 	if(!fire) fire = new(loc)
 
-/obj/machinery/door/airlock/Initialize()
+/obj/machinery/door/airlock/Initialize(mapload)
 	. = ..()
-	if(istype(src,/obj/machinery/door/airlock/external) || istype(src,/obj/machinery/door/airlock/multi_tile)) return
+	if(!mapload || istype(src,/obj/machinery/door/airlock/external) || istype(src,/obj/machinery/door/airlock/multi_tile)) return
 	var/obj/machinery/door/firedoor/fire                     = locate() in loc
 	var/obj/effect/floor_decal/industrial/hatch/yellow/decal = locate() in loc
 	if(!fire)  fire  = new(loc)
 	if(!decal) decal = new(loc)
+	var/turf/T = get_turf(src)
+	T.ChangeTurf(/turf/simulated/floor/tiled/techfloor/grid)
 
 //autodirs
 /atom/proc/walldir(var/bake = TRUE, var/reverse = FALSE, var/offset = FALSE)
@@ -63,8 +65,8 @@
 
 //autonames
 
-/obj/machinery/door/airlock/Initialize()
-	if(!istype(src,/obj/machinery/door/airlock/external))
+/obj/machinery/door/airlock/Initialize(mapload)
+	if(!istype(src,/obj/machinery/door/airlock/external) && mapload)
 		var/area/A = get_area(src)
 		name = "hatch ([A.name])"
 	. = ..()
@@ -175,5 +177,5 @@
 	jam_chance     = 5
 	origin_tech    = "{'combat':1,'materials':1}"
 
-/datum/fabricator_recipe/textiles/gun
+/datum/fabricator_recipe/arms_ammo/hidden/fabgun
 	path = /obj/item/gun/projectile/pistol/fabricated

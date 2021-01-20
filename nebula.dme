@@ -3249,7 +3249,6 @@
 #include "maps\constellation\constellation_define.dm"
 #include "maps\example\example_define.dm"
 #include "maps\exodus\exodus_define.dm"
-#include "maps\labyrinth\labyrinth.dm"
 #include "maps\labyrinth\labyrinth_define.dm"
 #include "maps\ministation\ministation_define.dm"
 #include "maps\modpack_testing\modpack_testing_define.dm"

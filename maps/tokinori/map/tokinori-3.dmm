@@ -1,358 +1,13 @@
-"ax" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/locker)
-"aJ" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"aM" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"aQ" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,/turf/space/sky,/area/space)
-"aR" = (/obj/machinery/chemical_dispenser/full,/obj/item/chems/glass/beaker/large,/turf/simulated/floor/tiled/white/monotile,/area/tokinori/shuttle)
-"aT" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"bg" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/black,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"bk" = (/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"bq" = (/obj/machinery/power/apc,/obj/structure/cable,/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"bH" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/core)
-"bK" = (/obj/machinery/power/emitter/anchored,/obj/structure/railing/mapped{dir = 8},/obj/structure/railing/mapped{dir = 4},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"bP" = (/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"bU" = (/obj/structure/railing/mapped{dir = 8},/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 8},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"bY" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"cc" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/railing/mapped{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"co" = (/obj/machinery/fabricator/textile/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"cs" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/smes)
-"cx" = (/obj/structure/railing/mapped{dir = 8},/obj/machinery/atmospherics/binary/pump/high_power{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"cD" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"cK" = (/obj/machinery/atmospherics/pipe/manifold4w/visible,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"cO" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"cR" = (/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"da" = (/obj/machinery/atmospherics/pipe/manifold/visible/blue,/obj/machinery/alarm/heavy,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"db" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"dh" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"dK" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"dL" = (/obj/machinery/light/small,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"dN" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/blue,/obj/machinery/meter,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"dP" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"eh" = (/obj/structure/table/standard,/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"ej" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"es" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"eA" = (/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"eE" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"eN" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"eZ" = (/obj/effect/floor_decal/industrial/warning/full,/obj/machinery/recharge_station,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"fk" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"fl" = (/obj/machinery/atmospherics/pipe/manifold/visible,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"fB" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"fI" = (/obj/machinery/network/mainframe/files,/turf/simulated/floor/bluegrid,/area/tokinori)
-"fJ" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 4},/obj/machinery/meter,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"fR" = (/obj/machinery/alarm/heavy,/obj/random/trash,/obj/random/trash,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"fT" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"fX" = (/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori)
-"fY" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable,/obj/machinery/power/sensor{id_tag = "Engine Containment"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"gi" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"gm" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"go" = (/obj/effect/floor_decal/industrial/warning/fulltile,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"gv" = (/obj/structure/inflatable/wall,/turf/simulated/floor/plating,/area/tokinori/shuttle)
-"gJ" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"hf" = (/obj/machinery/light,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/locker)
-"hh" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"hH" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"hK" = (/obj/machinery/computer/ship/sensors,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"id" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/nuclear)
-"iq" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"iF" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"iL" = (/obj/machinery/cryopod/robot,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"iQ" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"iW" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"iZ" = (/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"jF" = (/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"jI" = (/obj/item/stool/padded,/obj/machinery/light,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"jR" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/railing/mapped,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"jT" = (/obj/structure/cable{icon_state = "1-4"},/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"jV" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/alarm/heavy,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"kb" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"kc" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/space/sky,/area/space)
-"kd" = (/turf/simulated/floor/bluegrid,/area/tokinori)
-"kp" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"kx" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"kE" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"kI" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/monitor)
-"kP" = (/obj/machinery/light,/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"kQ" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"kR" = (/obj/machinery/computer/modular/preset/engineering,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/monitor)
-"kV" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"lb" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/turf/space/sky,/area/space)
-"lC" = (/obj/machinery/atmospherics/unary/engine{dir = 1},/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"lG" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"lR" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"lW" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"lX" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/nuclear)
-"lZ" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/smes/buildable/preset,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"mo" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"mC" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"mS" = (/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"nc" = (/obj/machinery/sleeper/standard,/turf/simulated/floor/tiled/white/monotile,/area/tokinori/shuttle)
-"nm" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/reinforced/nitrogen/engine,/area/tokinori/engine/core)
-"nn" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"no" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"nC" = (/obj/structure/bed/chair/shuttle/blue{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"nL" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"nO" = (/obj/machinery/power/apc,/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"nU" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/crate/uranium,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"ob" = (/obj/machinery/fabricator/industrial/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"ov" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"ow" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"oB" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"oJ" = (/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/smes/buildable/preset,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"pg" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"pk" = (/obj/machinery/atmospherics/pipe/manifold/visible/green,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"pl" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori)
-"pn" = (/obj/structure/closet/crate,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"po" = (/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"px" = (/obj/machinery/optable,/obj/item/scanner/health,/turf/simulated/floor/tiled/white/monotile,/area/tokinori/shuttle)
-"pM" = (/obj/machinery/computer/modular/preset/civilian{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"pN" = (/obj/effect/paint/brown,/turf/simulated/wall/ocp_wall,/area/tokinori/engine/core)
-"qj" = (/obj/machinery/power/terminal,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"qP" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"qR" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/space/sky,/area/space)
-"rb" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"rc" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"rh" = (/obj/machinery/alarm/heavy,/obj/machinery/computer/modular/preset/civilian{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"rj" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"rm" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"rL" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"rM" = (/obj/effect/floor_decal/industrial/warning{dir = 10},/turf/simulated/floor/plating,/area/tokinori)
-"rN" = (/obj/machinery/atmospherics/binary/pump{dir = 4},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"rQ" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/locker)
-"rZ" = (/obj/machinery/fabricator/industrial/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"sk" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"sn" = (/obj/machinery/atmospherics/unary/outlet_injector/engine{dir = 4; icon_state = "map_injector"; use_power = 1; volume_rate = 200},/turf/simulated/floor/reinforced/airless,/area/tokinori/engine/core/waste)
-"ss" = (/turf/simulated/floor/reinforced/nitrogen/engine,/area/tokinori/engine/core)
-"sD" = (/obj/machinery/atmospherics/unary/engine{dir = 4},/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"sR" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"sU" = (/obj/effect/floor_decal/industrial/warning{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"tc" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"tq" = (/obj/machinery/computer/modular/preset/engineering{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/monitor)
-"ts" = (/obj/structure/lattice,/turf/space/sky,/area/space)
-"tt" = (/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"tz" = (/obj/random/technology_scanner,/obj/random/technology_scanner,/obj/structure/closet/crate,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"tP" = (/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"tS" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"ud" = (/turf/simulated/floor/tiled/white,/area/tokinori/shuttle)
-"ue" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"uh" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"uv" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"uG" = (/obj/structure/bed/chair/shuttle/blue{dir = 8},/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"uI" = (/obj/machinery/power/apc,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"uJ" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"uR" = (/obj/machinery/mech_recharger,/obj/effect/floor_decal/industrial/warning/full,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"uS" = (/obj/effect/floor_decal/industrial/warning/full,/obj/machinery/computer/modular/preset/civilian,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"vq" = (/turf/simulated/floor/plating,/area/tokinori/shuttle)
-"vy" = (/obj/structure/railing/mapped{dir = 8},/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"vK" = (/obj/machinery/power/apc,/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"vR" = (/obj/machinery/computer/modular/preset/engineering,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/monitor)
-"wr" = (/obj/machinery/button/mass_driver{id_tag = "sm_drop"; name = "button (CORE EJECT)"; pixel_x = 24},/obj/structure/window/borosilicate_reinforced{dir = 8},/obj/structure/window/borosilicate_reinforced{dir = 1},/obj/structure/window/borosilicate_reinforced,/turf/simulated/floor/plating,/area/tokinori/engine/monitor)
-"wD" = (/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"wG" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"wK" = (/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"wP" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 4},/turf/simulated/floor/reinforced/airless,/area/space)
-"xs" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/nuclear)
-"xx" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"xC" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"xF" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/smes)
-"xM" = (/obj/machinery/meter/turf,/turf/simulated/floor/reinforced/nitrogen/engine,/area/tokinori/engine/core)
-"xO" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"xP" = (/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"ye" = (/obj/structure/inflatable/door,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"yk" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"yl" = (/obj/structure/table/rack,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"yp" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"yu" = (/obj/machinery/alarm/heavy,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/locker)
-"yy" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable{icon_state = "0-8"},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"yz" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"yB" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tokinori)
-"yO" = (/obj/structure/bed/chair/shuttle/blue{dir = 4},/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"zc" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/effect/wingrille_spawn/reinforced_borosilicate,/obj/machinery/door/blast/regular{dir = 4; id_tag = "sm_blast"; name = "core shielding"},/turf/simulated/floor/plating,/area/tokinori/engine/core)
-"zm" = (/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"zs" = (/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"zP" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/turf/space/sky,/area/space)
-"Aa" = (/obj/machinery/power/generator{anchored = 1},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"Al" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Au" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/core/waste)
-"AA" = (/obj/machinery/light,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"AE" = (/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"AF" = (/obj/machinery/atmospherics/unary/engine{dir = 8},/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"AH" = (/obj/machinery/fabricator/pipe/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"AQ" = (/turf/simulated/wall/titanium,/area/tokinori/shuttle)
-"AT" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"AY" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Be" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/blue,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Br" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/locker)
-"Bv" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"BC" = (/obj/structure/table/standard,/obj/item/paper_bin,/obj/item/pen,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"BS" = (/obj/machinery/atmospherics/binary/pump,/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"BY" = (/obj/structure/cable,/obj/machinery/power/smes/buildable/preset,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"Cb" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Cc" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Cd" = (/obj/machinery/computer/modular/preset/civilian{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"Ch" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"Cl" = (/obj/machinery/computer/shuttle_control/explore/tokinori_shuttle,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Co" = (/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"CF" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"CH" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"CK" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"CL" = (/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped,/turf/simulated/floor/plating,/area/tokinori)
-"CP" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"CW" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/smes)
-"Dg" = (/obj/machinery/fabricator/imprinter/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"Dx" = (/obj/machinery/power/generator{anchored = 1},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"DH" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/plating,/area/tokinori)
-"DX" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Ea" = (/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Ei" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"Ev" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Ex" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"EA" = (/obj/machinery/atmospherics/pipe/manifold/visible/green,/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"EG" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/atmospherics/binary/pump/high_power,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"EL" = (/obj/structure/table/standard,/obj/machinery/button/blast_door{id_tag = "sm_vent"; name = "button (core vent)"; pixel_y = -24},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"EZ" = (/obj/structure/railing/mapped{dir = 8},/obj/structure/railing/mapped{dir = 4},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"Fp" = (/obj/machinery/fabricator/robotics/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"Fw" = (/obj/structure/inflatable/door,/turf/simulated/floor/plating,/area/tokinori)
-"FJ" = (/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/apc,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/locker)
-"FM" = (/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/shuttle)
-"FZ" = (/turf/simulated/floor/plating,/area/tokinori)
-"Gd" = (/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Gg" = (/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"Gk" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/smes)
-"GD" = (/obj/structure/bed/chair/shuttle/blue{dir = 8},/obj/machinery/light,/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"GQ" = (/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 5},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"GU" = (/turf/simulated/floor/greengrid/nitrogen,/area/tokinori/engine/core)
-"Hb" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/smes)
-"Hn" = (/obj/machinery/computer/ship/helm,/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Ho" = (/obj/random/tool,/obj/random/tool,/obj/random/tool,/obj/random/tool,/obj/random/tool,/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"Hv" = (/obj/item/stool/padded,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"HD" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"HH" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"HI" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"HW" = (/obj/structure/railing/mapped{dir = 8},/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"If" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/tokinori)
-"Ig" = (/obj/machinery/computer/modular/preset/civilian{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Im" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"It" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"IC" = (/obj/machinery/alarm/heavy,/obj/structure/bed/chair/shuttle/blue{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"IK" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/space/sky,/area/space)
-"IN" = (/obj/machinery/power/apc,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"IP" = (/obj/effect/wallframe_spawn/reinforced/titanium,/turf/simulated/floor/plating,/area/tokinori/shuttle)
-"IW" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/turf/space/sky,/area/space)
-"Jb" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"Jh" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"Jr" = (/obj/item/stool/padded,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/locker)
-"JI" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"JR" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"JS" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"Kb" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"Kn" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/turf/space/sky,/area/space)
-"Kr" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"Kt" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"KE" = (/obj/item/stool/padded,/obj/machinery/power/apc,/obj/structure/cable,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"KF" = (/obj/structure/table/standard,/obj/machinery/button/blast_door{id_tag = "sm_blast"; name = "button (core shielding)"; pixel_y = -24},/obj/machinery/cell_charger,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"KM" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core/waste)
-"KN" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"KT" = (/obj/effect/floor_decal/industrial/warning/full,/obj/machinery/mech_recharger,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"Ll" = (/obj/effect/overmap/visitable/ship/landable/tokinori_shuttle,/obj/effect/shuttle_landmark/tokinori/port_dock,/turf/simulated/floor/tiled/techmaint,/area/tokinori/shuttle)
-"Ln" = (/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/plating,/area/tokinori)
-"Lw" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"LB" = (/obj/effect/floor_decal/industrial/warning/full,/obj/machinery/computer/modular/preset/civilian{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"LC" = (/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"LD" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"LO" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "sm_vent"; name = "core vent blast door"},/turf/simulated/floor/reinforced/airless,/area/tokinori/engine/core)
-"LU" = (/obj/machinery/alarm/heavy,/obj/machinery/power/terminal,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"LY" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 9},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Mn" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on{dir = 8},/turf/simulated/floor/reinforced/nitrogen/engine,/area/tokinori/engine/core)
-"Mp" = (/obj/machinery/atmospherics/omni/filter{tag_north = 1; tag_south = 3; tag_west = 2},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Mt" = (/obj/machinery/mech_recharger,/obj/effect/floor_decal/industrial/warning/full,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"MB" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"MK" = (/obj/structure/railing/mapped{dir = 8},/obj/structure/railing/mapped{dir = 4},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/atmospherics/omni/filter{tag_east = 4; tag_north = 2; tag_west = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"Nb" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Nm" = (/obj/machinery/power/port_gen/pacman/super/potato,/obj/machinery/alarm/heavy,/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/nuclear)
-"No" = (/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/tokinori/shuttle)
-"Nx" = (/obj/structure/inflatable/door,/turf/simulated/floor/plating,/area/tokinori/shuttle)
-"NG" = (/obj/machinery/mass_driver{id_tag = "sm_drop"; name = "ejection system"},/obj/machinery/power/supermatter,/turf/simulated/floor/greengrid/nitrogen,/area/tokinori/engine/core)
-"NO" = (/turf/simulated/wall/r_wall/prepainted,/area/tokinori/engine/fabricator)
-"NU" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"NZ" = (/obj/machinery/atmospherics/unary/freezer{dir = 4},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Ok" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Oo" = (/obj/machinery/power/apc,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"Oy" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"OF" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"OH" = (/obj/structure/table/standard,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"OW" = (/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Pg" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Pp" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Ps" = (/obj/structure/railing/mapped{dir = 1},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"Pw" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"PD" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 4},/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"PJ" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"PK" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/reinforced/airless,/area/tokinori/engine/core/waste)
-"PL" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/smes)
-"PM" = (/turf/simulated/floor/reinforced/airless,/area/space)
-"PN" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori)
-"PO" = (/obj/machinery/atmospherics/unary/freezer,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"PP" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/effect/wingrille_spawn/reinforced_borosilicate,/obj/machinery/door/blast/regular{dir = 4; id_tag = "sm_blast"; name = "core shielding"},/turf/simulated/floor/plating,/area/tokinori/engine/core)
-"Qc" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/smes)
-"Qe" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"QN" = (/obj/structure/closet/secure_closet/engineering_electrical,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/locker)
-"QQ" = (/obj/machinery/light,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"QU" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"QW" = (/obj/structure/table/reinforced,/obj/machinery/recharger,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"Rj" = (/obj/random/tank,/obj/random/tech_supply,/obj/random/tech_supply,/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"Rv" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 8},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"RC" = (/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"RD" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/white,/area/tokinori/shuttle)
-"RM" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 6},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Sd" = (/obj/effect/floor_decal/industrial/warning{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Sf" = (/obj/machinery/constructable_frame/machine_frame,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/tokinori/engine/smes)
-"Sm" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"Ss" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/locker)
-"St" = (/obj/structure/cable,/obj/machinery/power/apc,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"SC" = (/obj/machinery/light,/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"SM" = (/obj/structure/closet/crate/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/firstaid,/obj/random/firstaid,/obj/random/firstaid,/obj/item/scanner/health,/obj/item/scanner/health,/turf/simulated/floor/tiled/white/monotile,/area/tokinori/shuttle)
-"SN" = (/obj/random/toolbox,/obj/random/toolbox,/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/shuttle)
-"SP" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/monitor)
-"Tr" = (/obj/machinery/power/apc,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/nuclear)
-"TC" = (/obj/machinery/power/smes/buildable/preset,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"TG" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"TL" = (/obj/machinery/alarm/heavy,/obj/structure/bed/chair/shuttle/blue{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"TU" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/reinforced/airless,/area/space)
-"Ui" = (/obj/item/chems/glass/beaker/large,/obj/item/chems/glass/beaker/large,/obj/item/chems/glass/beaker/large,/obj/structure/table/glass,/turf/simulated/floor/tiled/white,/area/tokinori/shuttle)
-"Um" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"UE" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/tiled/techmaint,/area/tokinori/engine/monitor)
-"UG" = (/obj/machinery/power/sensor{id_tag = "Engine Output"},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"UM" = (/obj/machinery/power/apc,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"Va" = (/obj/structure/inflatable/wall,/turf/simulated/floor/plating,/area/tokinori)
-"Vd" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"Ve" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
+"ax" = (/obj/structure/lattice,/turf/simulated/open,/area/space)
+"RC" = (/obj/structure/railing/mapped{dir = 8},/turf/simulated/floor/plating,/area/space)
+"RM" = (/turf/simulated/floor/tiled/techmaint,/area/space)
+"SP" = (/turf/simulated/floor/plating,/area/space)
+"Um" = (/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/plating,/area/space)
 "Vi" = (/turf/space/sky,/area/space)
-"Vk" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techmaint,/area/tokinori)
-"VC" = (/obj/machinery/fabricator/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"VG" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/nuclear)
-"VR" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 1},/turf/simulated/floor/reinforced/airless,/area/space)
-"VY" = (/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"Wt" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"WH" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"WR" = (/obj/machinery/alarm/heavy,/turf/simulated/floor/plating,/area/tokinori)
-"WS" = (/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"Xm" = (/obj/structure/table/standard,/obj/machinery/cell_charger,/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"Xo" = (/obj/structure/bed/chair/shuttle/blue{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Xy" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/plating,/area/tokinori)
-"XF" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/locker)
-"XN" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/core)
-"XR" = (/obj/effect/wingrille_spawn/reinforced_borosilicate,/obj/machinery/door/blast/regular{dir = 1; id_tag = "sm_blast"; name = "core shielding"},/turf/simulated/floor/plating,/area/tokinori/engine/core)
-"Ya" = (/obj/machinery/computer/ship/engines{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tokinori/shuttle)
-"Ys" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable,/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/core)
-"YH" = (/obj/machinery/fabricator/robotics/filled,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/tokinori/engine/fabricator)
-"YJ" = (/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"YM" = (/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"YU" = (/obj/machinery/atmospherics/unary/freezer{dir = 4},/obj/machinery/light,/turf/simulated/floor/plating,/area/tokinori/engine/core/waste)
-"Za" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/monitor)
-"Zj" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/tokinori)
-"ZM" = (/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/reinforced/airless,/area/tokinori/shuttle)
-"ZR" = (/obj/machinery/power/apc,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor,/area/tokinori/engine/fabricator)
-"ZW" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/tokinori)
+"WH" = (/obj/structure/railing/mapped{dir = 1},/turf/simulated/floor/plating,/area/space)
+"Ys" = (/turf/simulated/open,/area/space)
+"Zj" = (/obj/structure/railing/mapped,/turf/simulated/floor/plating,/area/space)
+"ZR" = (/turf/simulated/wall/r_wall/prepainted,/area/space)
 
 (1,1,1) = {"
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
@@ -383,51 +38,51 @@ ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViplplplplplplplplplplplplplplplViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViplplplplplplplplplplplplplplplplplplplplplplplplplplplplplplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViplplplplplplplplplplYJYJVYYJYJYJYJYJVYYJYJplplplplplplplplplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViplplFZFZFZFZFZFZFZplYJfIkdfIkdfIkdfIkdfIYJplFZFZFZFZFZFZFZplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViplplFZFZFZFZFZFZFZplYJfIkdfIkdfIkdfIkdfIYJplFZFZFZFZFZFZFZplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViVitststststststststsViViViViViViplplFZFZFZFZFZFZFZplYJYJVYYJlRYJlRYJVYYJYJplFZFZFZFZFZFZFZplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViVitststststsVitsVitstststsVitstststststsViplplFZFZFZFZFZFZFZplplplplplplItplplplplplplFZFZFZFZFZFZFZplplViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViVitstststsVitstsViVitstsVitststsplplplplplplplplplFZFZFZFZFZFZFZplFZFZFZFZFZFZFZFZFZFZFZplFZFZFZFZFZFZFZplplplplplplplplplViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViVitstststststststsplplplplplplplplplFZFZFZFZFZFZFZplFZplplplplplplplplplFZplFZFZFZFZFZFZFZplplplplplplplplplViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitstsplplFZFZFZFZFZFZplplplplItplplplplFZplFZFZFZFZFZFZFZplFZplplplplItplplplplFZFZFZFZFZFZplplViViViViViViViViViViViViViViViViViVi
-ViViViViViAQAQAQIPIPIPAQAQAQViVitsplplplplItplplFZItFZFZFZFZFZFZFZItFZplFZFZFZFZFZFZFZplFZItFZFZFZFZFZFZFZItFZplplplplplplplViViViViViViViViViViViViViViViViViVi
-ViViViViAQAQncAQClHnhKAQOoAQAQViViViyBFZFZFZFZplplplplplplplplplplplplplFZFZFZFZFZFZFZplplplplplplplplplplplplplFZFZFZFZyBViViViViViViViViViViViViViViViViViViVi
-ViViViViAQUiudAQICmSGDAQkVyyAQViViViyBFZFZFZFZplnOmCmCmCmCmCYJChChChYJplFZFZFZFZFZFZFZplYJnUVYnUUMnUYJiQVYiQYJplFZFZFZFZyBViViViViViViViViViViViViViViViViViViVi
-ViViViViIPaRRDAQYamSIgAQbYSNIPViViViyBFZFZFZFZplYJmCmCmCmCmCYJChChChYJplFZFZFZFZFZFZFZplYJnUYJnUZjnUYJiQYJiQYJplFZFZWRFZyBViViViViViViViViViViViViViViViViViViVi
-ViViViViIPSMNoAQAQaMAQAQpoHoIPViViViplplplItplpllRYJYJYJYJYJYJYJYJYJlRplFZFZFZFZFZFZFZplYJYJjFwGKbYJYJYJYJYJYJplplItplplplViViViViViViViViViViViViViViViViViViVi
-ViViViViAQpxudaMkPmSKNaMGdRjAQViViViplCdLCLCpMplPNPNYJPNPNPNChChYJChChplFZFZFZFZFZFZFZplYJPwZjPwYJPwYJCHYJCHYJplLCLCLCLCplViViViViViViViViViViViViViViViViViViVi
-ViViViViAQAQAQAQAQaMAQAQAQAQAQplplplplCdLCLCrhplPNPNYJPNPNPNChChYJChChplplplFZFZFZplplplYJPwZjPwlRPwlRCHYJCHYJplCPLCLCLCplplplplViViViViViViViViViViViViViViViVi
-ViViViViAQfRmSAQmSmSmSAQvqgvAQplVafXpluILCLCSCplplplItplplplplplItplplplLCCPLCLCLCvKLCplplpldbplplplplplItplplplSCLCLCLCplfXVaplViViViViViViViViViViViViViViViVi
-ViViViViAQtzmSaMmSLlmSaMvqNxNxFwFwFZItVkJSJSJSuhJSdLJSdLJSuhJSdLJSdLJSuhJSJSJSJRJSJSJSuhJSdLnndLJSuhJSdLzmdLJSuhJSJSJSVeItFZFwFwViViViViViViViViViViViViViViViVi
-ViViViViAQylmSAQkPmSmSAQFMgvAQplVaplplplplplplplplplItplplplplplItplplplLCSCLCeNLCSCLCNONONOkxNONONONONOBrrQrQrQLCLCLCeNplFZVaplViViViViViViViViViViViViViViViVi
-ViViViViAQAQAQAQAQaMAQAQAQAQAQplplplYJYJYJYJlRYJlRYJYJnOlRYJlRYJYJYJYJkIkIkIkISPkIkIkINOrZgoVdVCuRcocRNOaxXFXFrQLCLCLCbqplplplplViViViViViViViViViViViViViViViVi
-ViViViViAQpnbYAQXomSnCAQbYrmAQViViplYJMtLBMtFpYJobXyDHXmXmYJiLeZeZeZYJkIZajItqEiBCkRvRNOrZeAVdVCcRDgWSNOhfJrJrrQLCLCSCLCplViViViViViViViViViViViViViViViViViViVi
-ViViViViIPpnGdAQTLmSnCAQGdpnIPViViplYJCLCLCLFpYJobIfZWAEbPYJxPAEAEAEYJkIUEwDxxkQttttHvNOZRgJKrcRcRcRnLNOyuSsFJlXlXQelXlXlXViViViViViViViViViViViViViViViViViViVi
-ViViViViIPrmGdaMmSmSmSaMGdpnIPViViplYJMtMtMtFpYJobrMLnMtKTYJiLuSuSeZYJkIZaKEtqELKFttwrNOQWJhcRYHcRAHcRNOaxJrJrlXQQTrlXlXlXViViViViViViViViViViViViViViViViViViVi
-ViViViViAQrmpoAQyOmSuGAQpopnAQViViplYJYJYJYJYJYJYJYJYJYJYJYJYJYJYJYJYJbHbHbHbHbHbHRCbHNOQWJhWSYHuRAHcRNOaxQNQNlXLUidejNmlXViViViViViViViViViViViViViViViViViViVi
-ViViViViAQAQGdAQXomSnCAQGdAQAQViViplplplplItplplplplplplplplplplplbHbHbHRMBvSmgmlGSmPpNONONONONONONONONOHbcscslXTCxslXlXlXViViViViViViViViViViViViViViViViViViVi
-ViViViViGgAQAQAQAQAQAQAQAQAQGgViViplplFZFZFZFZFZFZItFZFZFZFZFZFZFZbHOWfkNbUmykoJYszskEAYkbsRbHiZcsINtPtPrccscslXlXVGlXlXlXcsViViViViViViViViViViViViViViViViViVi
-ViViViViGgGgsDkpZMZMZMLDAFGgGgVitsplplFZFZFZFZFZFZAuAuAuAuAuAuKMAubHccfBkEOFowoBrjOFAlnobgbgxCiqQcuJBYBYHDGkxOxOAAdPiWxFyeyeViViViViViViViViViViViViViViViViViVi
-ViViViViViGgGgGgKtKtKtGgGgGgViVitsplplplplplplAuAuAuOHEaEaEaEaYMEabHXNfYExAaWHbKuvDxPgUGDXdKbHPLcsiFCKJbNUcscscscscscscscscsViViViViViViViViViViViViViViViViViVi
-ViViViViViViViVilClClCViViViViVitsplplplplplplAuAuAuehMBMBMBMBYMBSbHjRfBfTyzImMKypyzCFzsQUaJbHqPcsjTqjCojVcscscscscscscscscsViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViVitstsViViViViVisnPKcDhHcKPDCbpkcOEAPJUmLYovueSdEZsUCcOkmoATATbHrbcsbklZSfNUcscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViVitstsViViViViViViAuAuOHwKhhMpPOYMStbHPsTGcxpNpNXRpNpNEGuvPsccbHPLcsbkeEpgdhcscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViVitststststststststststsVitststststststststsAuAuYUfJLwdNBerNtSbHXNTGbUzcMnxMnmPPrLuvJIXNbHCWcscscscscscscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViVitstststsVitstststsVitstsVitststsAuAuNZflEvGQdarNEvbHaTTGvyzcMnNGnmPPskuvJIJIbHtcOybklWOybkcscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitststsViViViViViViAuAuAuAuAuAuAuAuAubHJITGHWpNssGUsspNWtuvJIbHbHRvHIHHcsyecscscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitsViViViViViViViViAuAuAuAuAuAuAuAuAubHbHbHbHpNpNLOpNpNbHbHbHbHbHesesgicsyecscscsViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitstsViViViViViViViPMPMPMPMPMPMPMPMplbHbHbHbHbHbHLObHbHbHbHbHbHbHkckcViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitstsViViViViViViViViViViViPMPMPMPMPMPMbHbHbHbHbHLObHbHbHbHbHzPlbkckcViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitsViViViViViViViViViViViViViViViTUVRwPlbzPlbzPlbzPlbzPlbzPlbkckckckcViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitsViViViViViViViViViViViViViViViViaQzPIKIKIKIKIKIKIKIKIKIKIKIKIKIKIWViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitsViViViViViViViViViViViViViViViVikcKnIKIKIKIKIKIKIKIKIKIKIKIKIKIKlbViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViVitsViViViViViViViViViViViViViViViVikczPIKIKIKIKIKIKIKIKIKIKIKIKIKIKIWViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVikcKnIKIKIKIKIKIKIKIKIKIKIKIKIKIKlbViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViKnqRIKIKIKIKIKIKIKIKIKIKIKIKIKIKIWViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
-ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViKnIWKnIWKnIWKnIWKnIWKnIWKnIWViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRZRZRZRZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRSPZjZjZjSPZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsaxYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsaxYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsaxYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRZRZRZRZRZRZRZRSPWHSPWHSPZRZRZRZRZRZRZRZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRSPZjZjZjSPZRZRZRZRZRSPZRZRZRZRZRSPZjZjZjSPZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRSPSPSPSPSPSPSPZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRSPSPSPSPSPSPSPZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMSPSPSPSPSPSPSPSPSPRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRSPSPSPSPSPSPSPZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRSPSPSPSPSPSPSPZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRSPWHSPWHSPZRZRZRZRZRSPZRZRZRZRZRSPWHSPWHSPZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRZRZRZRZRZRZRZRSPZjZjZjSPZRZRZRZRZRZRZRZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRRMUmYsYsYsRCRMZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRSPWHSPWHSPZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViZRZRZRSPZRZRZRViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
+ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
 ViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViViVi
