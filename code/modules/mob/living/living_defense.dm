@@ -320,6 +320,7 @@
 			if(!I.action)
 				I.action = new I.default_action_type
 			I.action.name = I.action_button_name
+			I.action.desc = I.action_button_desc
 			I.action.SetTarget(I)
 			I.action.Grant(src)
 	return
@@ -361,6 +362,7 @@
 		B.UpdateIcon()
 
 		B.SetName(A.UpdateName())
+		B.desc = A.UpdateDesc()
 
 		client.screen += B
 

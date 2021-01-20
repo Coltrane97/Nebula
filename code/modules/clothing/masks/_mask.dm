@@ -1,9 +1,13 @@
 /obj/item/clothing/mask
 	name = "mask"
+	icon = 'icons/clothing/mask/breath.dmi'
 	icon_state = ICON_STATE_WORLD
 	slot_flags = SLOT_FACE
 	body_parts_covered = SLOT_FACE|SLOT_EYES
 	blood_overlay_type = "maskblood"
+	material = /decl/material/solid/glass
+	matter = list(/decl/material/solid/plastic = MATTER_AMOUNT_REINFORCEMENT)
+	origin_tech = "{'materials':1,'engineering':1}"
 
 	var/voicechange = 0
 	var/list/say_messages

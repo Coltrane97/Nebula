@@ -8,7 +8,7 @@
 /decl/hierarchy/outfit/job/science/rd
 	name = OUTFIT_JOB_NAME("Chief Science Officer")
 	l_ear = /obj/item/radio/headset/heads/rd
-	uniform = /obj/item/clothing/under/rank/research_director
+	uniform = /obj/item/clothing/under/research_director
 	shoes = /obj/item/clothing/shoes/color/brown
 	hands = list(/obj/item/clipboard)
 	id_type = /obj/item/card/id/science/head

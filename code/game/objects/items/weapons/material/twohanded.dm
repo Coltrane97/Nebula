@@ -134,10 +134,11 @@
 
 /obj/item/twohanded/spear/experimental_mob_overlay(mob/user_mob, slot, bodypart)
 	var/image/ret = ..()
-	if(wielded && check_state_in_icon("[ret.icon_state]_wielded", icon))
-		ret.icon_state = "[ret.icon_state]_wielded"
-	ret.overlays += get_shaft_overlay("[ret.icon_state]_shaft")
-	ret.overlays += mutable_appearance(icon, "[ret.icon_state]_cable", cable_color)
+	if(ret)
+		if(check_state_in_icon("[ret.icon_state]-shaft", ret.icon))
+			ret.overlays += get_shaft_overlay("[ret.icon_state]-shaft")
+		if(check_state_in_icon("[ret.icon_state]-cable", ret.icon))
+			ret.overlays += mutable_appearance(icon, "[ret.icon_state]-cable", cable_color)
 	return ret
 
 /obj/item/twohanded/spear/proc/get_shaft_overlay(var/base_state)
@@ -192,3 +193,27 @@
 
 /obj/item/twohanded/baseballbat/diamond
 	material = /decl/material/solid/gemstone/diamond
+
+/obj/item/twohanded/pipewrench
+	name = "enormous pipe wrench"
+	desc = "You are no longer asking nicely."
+	icon = 'icons/obj/items/tool/pipewrench.dmi'
+	max_force = 60
+	material_force_multiplier = 0.6
+	unwielded_material_force_multiplier = 0.3
+	attack_verb = list("bludgeoned", "slammed", "smashed", "wrenched")
+	material = /decl/material/solid/metal/steel
+	applies_material_colour = FALSE
+	applies_material_name = TRUE
+	w_class = ITEM_SIZE_NO_CONTAINER
+
+/obj/item/twohanded/pipewrench/iswrench()
+	return wielded
+
+/obj/item/twohanded/pipewrench/afterattack(atom/A, mob/user, proximity)
+	if(!proximity) 
+		return
+	..()
+	if(istype(A,/obj/structure/window) && wielded)
+		var/obj/structure/window/W = A
+		W.shatter()

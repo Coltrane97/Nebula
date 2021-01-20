@@ -326,7 +326,7 @@
 
 /obj/item/projectile/explosion_act()
 	SHOULD_CALL_PARENT(FALSE)
-	return
+	return 
 
 /obj/item/projectile/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	return 1
@@ -533,7 +533,7 @@
 		SP.SetName((name != "shrapnel")? "[name] shrapnel" : "shrapnel")
 		SP.desc += " It looks like it was fired from [shot_from]."
 		return SP
-
+	
 /obj/item/projectile/get_autopsy_descriptors()
 	return list(name)
 

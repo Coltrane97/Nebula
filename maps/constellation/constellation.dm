@@ -16,13 +16,13 @@
 	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
+	#include "../../mods/species/neocorvids/_neocorvids.dme"
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 
 	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
 	#include "../../mods/content/government/ruins/ec_old_crash/ec_old_crash.dm"
 	#include "../../mods/content/corporate/away_sites/lar_maria/lar_maria.dm"
-	#include "../../mods/species/ascent/away_sites/ascent/ascent.dm"
 
 	#include "../away/bearcat/bearcat.dm"
 	#include "../away/casino/casino.dm"

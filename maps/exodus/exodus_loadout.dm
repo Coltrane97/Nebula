@@ -1,18 +1,18 @@
 /datum/gear/storage/brown_vest
 	display_name = "webbing, brown"
-	path = /obj/item/clothing/accessory/storage/brown_vest
+	path = /obj/item/clothing/accessory/storage/vest/brown
 	cost = 3
 	allowed_roles = list(/datum/job/chief_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/qm, /datum/job/cargo_tech, /datum/job/mining, /datum/job/janitor)
 
 /datum/gear/storage/black_vest
 	display_name = "webbing, black"
-	path = /obj/item/clothing/accessory/storage/black_vest
+	path = /obj/item/clothing/accessory/storage/vest/black
 	cost = 3
 	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer)
 
 /datum/gear/storage/white_vest
 	display_name = "webbing, white"
-	path = /obj/item/clothing/accessory/storage/white_vest
+	path = /obj/item/clothing/accessory/storage/vest
 	cost = 3
 	allowed_roles = list(/datum/job/cmo, /datum/job/doctor)
 

@@ -42,11 +42,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "aj" = (
@@ -63,6 +59,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "ak" = (
@@ -181,7 +178,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "aK" = (
 /obj/effect/landmark/map_data{
@@ -227,6 +225,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/solar,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/space)
 "bf" = (
@@ -251,14 +250,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/ship/trade/command/bridge_upper)
-"cB" = (
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/airless,
-/area/space)
 "cO" = (
 /obj/structure/grille/broken,
 /turf/simulated/floor/plating,
@@ -269,7 +260,8 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "ds" = (
 /obj/machinery/network/router{
@@ -289,6 +281,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/trade/command/bridge_upper)
+"fE" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/solarpanel,
+/turf/simulated/floor/airless,
+/area/space)
 "gw" = (
 /obj/item/caution/cone,
 /obj/structure/cable{
@@ -334,6 +335,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "hJ" = (
@@ -392,6 +394,13 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/comms)
+"ke" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
+/area/space)
 "kF" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
@@ -442,6 +451,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "nZ" = (
@@ -478,13 +488,9 @@
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_unused)
 "oL" = (
-/obj/machinery/power/tracker,
-/obj/structure/cable/yellow{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/airless,
-/area/space)
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/ship/trade/command/bridge_unused)
 "pt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -581,7 +587,8 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "vC" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -697,6 +704,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "zY" = (
@@ -910,7 +918,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "KK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -980,6 +989,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "Pg" = (
@@ -1030,6 +1040,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
 "Rk" = (
@@ -1101,9 +1112,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "Tx" = (
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_upper)
 "Tz" = (
@@ -1123,6 +1136,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/solar,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/space)
 "UY" = (
@@ -1165,6 +1179,7 @@
 /turf/simulated/floor/bluegrid,
 /area/ship/trade/comms)
 "Wi" = (
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/trade/comms)
 "Xu" = (
@@ -1179,7 +1194,11 @@
 	icon_state = "2-8"
 	},
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "XF" = (
 /turf/simulated/floor/plating,
@@ -1209,7 +1228,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
 /area/space)
 "YA" = (
 /obj/machinery/door/airlock/hatch/autoname/command,
@@ -3689,7 +3709,7 @@ ax
 ax
 ax
 ax
-oL
+ax
 ax
 ax
 ax
@@ -3771,7 +3791,7 @@ ax
 ax
 ax
 ax
-cB
+ax
 ax
 ax
 ax
@@ -3935,7 +3955,7 @@ ax
 ax
 ax
 ax
-cB
+Tt
 ax
 ax
 ax
@@ -4017,7 +4037,7 @@ ax
 ax
 ax
 ax
-cB
+Tt
 ax
 ax
 ax
@@ -4502,13 +4522,13 @@ ax
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
+fE
+ke
+ke
+ke
+ke
+ke
+ke
 Xu
 yt
 af
@@ -4919,7 +4939,7 @@ ax
 ax
 ax
 ax
-cB
+Tt
 ax
 ax
 ax
@@ -4979,8 +4999,8 @@ ax
 ax
 zY
 zY
-XF
-XF
+oL
+oL
 zY
 ax
 ax
@@ -5001,7 +5021,7 @@ ax
 ax
 ax
 ax
-cB
+Tt
 ax
 ax
 ax
@@ -5083,7 +5103,7 @@ ax
 ax
 ax
 ax
-cB
+Tt
 ax
 ax
 ax

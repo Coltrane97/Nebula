@@ -48,10 +48,9 @@
 		/obj/item/multitool = 4,
 		/obj/item/geiger = 4,
 		/obj/item/stock_parts/circuitboard/airlock_electronics = 10,
-		/obj/item/stock_parts/circuitboard/apc = 10,
-		/obj/item/stock_parts/circuitboard/air_alarm = 10,
+		/obj/item/frame/apc/kit = 10,
+		/obj/item/frame/air_alarm/kit = 10,
 		/obj/item/cell = 10,
-		/obj/item/clamp = 10,
 		/obj/item/storage/belt/utility
 	)
 	contraband = list(/obj/item/cell/high = 3)

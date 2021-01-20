@@ -108,6 +108,7 @@
 	return list(/obj/item/storage/toolbox/mechanical = 30,
 				/obj/item/storage/toolbox/electrical = 20,
 				/obj/item/storage/toolbox/emergency = 20,
+				/obj/item/storage/toolbox/repairs = 20,
 				/obj/item/storage/toolbox/syndicate = 1)
 
 /obj/random/tech_supply
@@ -781,8 +782,8 @@ obj/random/obstruction/spawn_choices()
 /obj/random/glasses
 	name = "random eyewear"
 	desc = "This is a random pair of glasses."
-	icon = 'icons/obj/clothing/obj_eyes.dmi'
-	icon_state = "leforge"
+	icon = 'icons/clothing/eyes/glasses_prescription.dmi'
+	icon_state = ICON_STATE_WORLD
 
 /obj/random/glasses/spawn_choices()
 	return list(/obj/item/clothing/glasses/sunglasses = 3,
@@ -845,18 +846,18 @@ obj/random/obstruction/spawn_choices()
 /obj/random/clothing
 	name = "random clothes"
 	desc = "This is a random piece of clothing."
-	icon = 'icons/obj/clothing/obj_under.dmi'
-	icon_state = "jumpsuit"
+	icon = 'icons/clothing/under/jumpsuits/jumpsuit.dmi'
+	icon_state = ICON_STATE_WORLD
 
 /obj/random/clothing/spawn_choices()
 	return list(/obj/item/clothing/under/syndicate/tacticool = 2,
 				/obj/item/clothing/under/syndicate/combat = 1,
 				/obj/item/clothing/under/hazard = 4,
 				/obj/item/clothing/under/sterile = 4,
-				/obj/item/clothing/under/casual_pants/camo = 2,
+				/obj/item/clothing/pants/casual/camo = 2,
 				/obj/item/clothing/under/frontier = 2,
 				/obj/item/clothing/under/harness = 2,
-				/obj/item/clothing/under/rank/medical/paramedic = 2,
+				/obj/item/clothing/under/medical/paramedic = 2,
 				/obj/item/clothing/under/overalls = 2,
 				/obj/item/clothing/head/earmuffs = 2,
 				/obj/item/clothing/under/tactical = 1)
@@ -864,15 +865,15 @@ obj/random/obstruction/spawn_choices()
 /obj/random/accessory
 	name = "random accessory"
 	desc = "This is a random utility accessory."
-	icon = 'icons/obj/clothing/obj_accessories.dmi'
-	icon_state = "horribletie"
+	icon = 'icons/clothing/accessories/ties/tie_horrible.dmi'
+	icon_state = ICON_STATE_WORLD
 
 /obj/random/accessory/spawn_choices()
-	return list(/obj/item/clothing/accessory/storage/webbing = 3,
+	return list(/obj/item/clothing/accessory/storage = 3,
 				/obj/item/clothing/accessory/storage/webbing_large = 3,
-				/obj/item/clothing/accessory/storage/black_vest = 2,
-				/obj/item/clothing/accessory/storage/brown_vest = 2,
-				/obj/item/clothing/accessory/storage/white_vest = 2,
+				/obj/item/clothing/accessory/storage/vest/black = 2,
+				/obj/item/clothing/accessory/storage/vest/brown = 2,
+				/obj/item/clothing/accessory/storage/vest = 2,
 				/obj/item/clothing/accessory/storage/bandolier = 1,
 				/obj/item/clothing/accessory/storage/holster/thigh = 1,
 				/obj/item/clothing/accessory/storage/holster/hip = 1,

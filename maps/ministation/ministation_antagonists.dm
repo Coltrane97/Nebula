@@ -3,10 +3,6 @@
 	initial_spawn_req = 1
 	initial_spawn_target = 1
 
-/decl/special_role/borer
-	initial_spawn_req = 1
-	initial_spawn_target = 1
-
 /decl/special_role/mercenary
 	initial_spawn_req = 1
 	initial_spawn_target = 2
@@ -37,7 +33,7 @@
 		"a collectable top hat"              = /obj/item/clothing/head/collectable/tophat,
 		"the reactive teleport armor"        = /obj/item/clothing/suit/armor/reactive,
 		"a jetpack"                          = /obj/item/tank/jetpack,
-		"a captain's jumpsuit"               = /obj/item/clothing/under/rank/captain,
+		"a captain's jumpsuit"               = /obj/item/clothing/under/captain,
 		"a pair of magboots"                 = /obj/item/clothing/shoes/magboots,
 		"the master blueprints"              = /obj/item/blueprints,
 		"a sample of slime extract"          = /obj/item/slime_extract,

@@ -7,28 +7,28 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/Project-Starlight/Nebula">
-    <img src="https://github.com/Project-Starlight/Nebula/workflows/Run%20Tests/badge.svg"
+  <a href="https://github.com/Starlight-SS13/Nebula">
+    <img src="https://github.com/Starlight-SS13/Nebula/workflows/Run%20Tests/badge.svg"
          alt="Build Status">
   </a>
-  <a href="https://www.codefactor.io/repository/github/Project-Starlight/Nebula">
-    <img src="https://www.codefactor.io/repository/github/Project-Starlight/Nebula/badge"
+  <a href="https://www.codefactor.io/repository/github/Starlight-SS13/Nebula">
+    <img src="https://www.codefactor.io/repository/github/Starlight-SS13/Nebula/badge"
          alt="CodeFactor">
   </a>
-  <a href="https://github.com/Project-Starlight/Nebula/commits/dev">
-    <img src="https://img.shields.io/github/last-commit/Project-Starlight/Nebula"
+  <a href="https://github.com/Starlight-SS13/Nebula/commits/dev">
+    <img src="https://img.shields.io/github/last-commit/Starlight-SS13/Nebula"
          alt="Last Commit">
   </a>
-  <a href="https://github.com/Project-Starlight/Nebula/issues">
-    <img src="https://img.shields.io/github/issues/Project-Starlight/Nebula"
+  <a href="https://github.com/Starlight-SS13/Nebula/issues">
+    <img src="https://img.shields.io/github/issues/Starlight-SS13/Nebula"
          alt="Issues">
   </a>
   <a href="https://discord.gg/MZDPfeqUKY">
     <img src="https://img.shields.io/discord/684286008384159766?style=plastic"
          alt="Discord">
   </a>
-  <a href="https://github.com/Project-Starlight/Nebula/blob/dev/LICENSE">
-    <img src="https://img.shields.io/github/license/Project-Starlight/Nebula"
+  <a href="https://github.com/Starlight-SS13/Nebula/blob/dev/LICENSE">
+    <img src="https://img.shields.io/github/license/Starlight-SS13/Nebula"
          alt="License">
   </a>
 </p>

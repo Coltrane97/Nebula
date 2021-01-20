@@ -1576,12 +1576,12 @@
 "aAv" = (
 /obj/structure/table/rack,
 /obj/item/rig_module/mounted,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/clothing/accessory/storage/black_vest,
-/obj/item/clothing/accessory/storage/black_vest,
+/obj/item/clothing/accessory/storage/vest/black,
+/obj/item/clothing/accessory/storage/vest/black,
+/obj/item/clothing/accessory/storage/vest/black,
+/obj/item/clothing/accessory/storage/vest/black,
+/obj/item/clothing/accessory/storage/vest/black,
+/obj/item/clothing/accessory/storage/vest/black,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "vault"
@@ -1936,12 +1936,12 @@
 /obj/structure/table/rack,
 /obj/item/flash,
 /obj/item/flash,
-/obj/item/clothing/accessory/storage/brown_vest,
-/obj/item/clothing/accessory/storage/brown_vest,
-/obj/item/clothing/accessory/storage/brown_vest,
-/obj/item/clothing/accessory/storage/brown_vest,
-/obj/item/clothing/accessory/storage/brown_vest,
-/obj/item/clothing/accessory/storage/brown_vest,
+/obj/item/clothing/accessory/storage/vest/brown,
+/obj/item/clothing/accessory/storage/vest/brown,
+/obj/item/clothing/accessory/storage/vest/brown,
+/obj/item/clothing/accessory/storage/vest/brown,
+/obj/item/clothing/accessory/storage/vest/brown,
+/obj/item/clothing/accessory/storage/vest/brown,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "vault"
@@ -2799,12 +2799,12 @@
 /obj/structure/table/rack,
 /obj/item/flash,
 /obj/item/flash,
-/obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/white_vest,
+/obj/item/clothing/accessory/storage/vest,
+/obj/item/clothing/accessory/storage/vest,
+/obj/item/clothing/accessory/storage/vest,
+/obj/item/clothing/accessory/storage/vest,
+/obj/item/clothing/accessory/storage/vest,
+/obj/item/clothing/accessory/storage/vest,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "vault"
