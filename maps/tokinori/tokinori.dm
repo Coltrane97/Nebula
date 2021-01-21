@@ -40,7 +40,12 @@
 	#include "overmap/tokinori_overmap.dm"
 	#include "overmap/tokinori_shuttles.dm"
 
+	#include "map/tokinori-1.dmm"
+	#include "map/tokinori-2.dmm"
 	#include "map/tokinori-3.dmm"
+	#include "map/tokinori-4.dmm"
+	#include "map/tokinori-5.dmm"
+	#include "map/tokinori-6.dmm"
 
 	#define USING_MAP_DATUM /datum/map/tokinori
 

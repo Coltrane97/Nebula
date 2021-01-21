@@ -179,3 +179,18 @@
 
 /datum/fabricator_recipe/arms_ammo/hidden/fabgun
 	path = /obj/item/gun/projectile/pistol/fabricated
+
+//powered
+
+/obj/item/stock_parts/power/apc
+	name = "power adaptor"
+	desc = "Heavy, long-range power receptor being used almost everything."
+
+/obj/item/stock_parts/power/apc/can_provide_power(var/obj/machinery/machine)
+	return is_functional()
+
+/obj/item/stock_parts/power/apc/can_use_power_oneoff(obj/machinery/machine, amount, channel)
+	return 1
+
+/obj/item/stock_parts/power/apc/use_power_oneoff(var/obj/machinery/machine, var/amount, var/channel)
+	return 1
