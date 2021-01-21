@@ -1,0 +1,6 @@
+#ifndef MODPACK_INTERSOUND
+#define MODPACK_INTERSOUND
+#include "airlock.dm"
+#include "footsteps.dm"
+#include "intersound.dm"
+#endif

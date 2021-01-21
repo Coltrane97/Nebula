@@ -4,7 +4,7 @@
 /area/exoplanet/volcanic/labyrinth)
 "aI" = (
 /obj/structure/stairs/south,
-/turf/exterior/concrete/reinforced,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "aJ" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -200,6 +200,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"jm" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "jv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -251,6 +259,9 @@
 /obj/machinery/microwave,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
+"ml" = (
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "mp" = (
 /obj/machinery/cooker/oven,
 /turf/simulated/floor/tiled/freezer,
@@ -365,6 +376,10 @@
 	},
 /turf/exterior/concrete/reinforced,
 /area/exoplanet/volcanic/labyrinth)
+"pP" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "qC" = (
 /obj/machinery/light_switch{
 	pixel_y = -21
@@ -418,7 +433,7 @@
 "tO" = (
 /obj/effect/landmark/test/space_turf,
 /turf/unsimulated/mask,
-/area/space)
+/area/exoplanet/volcanic/labyrinth)
 "uC" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -454,6 +469,14 @@
 /area/labyrinth/maintenance/shaft)
 "xP" = (
 /turf/exterior/concrete/reinforced,
+/area/exoplanet/volcanic/labyrinth)
+"yb" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "yi" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -529,6 +552,13 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
+"DF" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "DT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -642,6 +672,16 @@
 	},
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
+"HR" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "HW" = (
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
@@ -784,6 +824,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
+"Oo" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
+"OA" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "Pe" = (
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
@@ -860,7 +915,7 @@
 /area/labyrinth/hallway/upper)
 "RF" = (
 /turf/unsimulated/mask,
-/area/space)
+/area/exoplanet/volcanic/labyrinth)
 "RI" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -908,6 +963,13 @@
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
+"SS" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "ST" = (
 /obj/effect/floor_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1009,6 +1071,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
+"WP" = (
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "Xc" = (
 /obj/machinery/media/jukebox/old,
 /obj/item/music_tape/custom,
@@ -6439,16 +6508,16 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
+Oo
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+SS
+yb
 RF
 RF
 RF
@@ -6569,7 +6638,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 aJ
 hB
 hB
@@ -6578,7 +6647,7 @@ hB
 hB
 hB
 aJ
-RF
+OA
 RF
 RF
 RF
@@ -6697,9 +6766,9 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
+Oo
+SS
+pP
 aJ
 sA
 ze
@@ -6708,9 +6777,9 @@ Gp
 ze
 Lp
 aJ
-RF
-RF
-RF
+pP
+SS
+yb
 RF
 RF
 RF
@@ -6826,8 +6895,8 @@ RF
 RF
 RF
 RF
-RF
-RF
+Oo
+pP
 aJ
 hB
 aJ
@@ -6840,8 +6909,8 @@ Lv
 aJ
 LZ
 LZ
-RF
-RF
+pP
+yb
 RF
 RF
 RF
@@ -6955,8 +7024,8 @@ RF
 RF
 RF
 RF
-RF
-RF
+Oo
+pP
 aJ
 aJ
 nx
@@ -6971,8 +7040,8 @@ aJ
 QI
 LZ
 LZ
-RF
-RF
+pP
+yb
 RF
 RF
 RF
@@ -7085,7 +7154,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 aJ
 aJ
 ku
@@ -7102,7 +7171,7 @@ QK
 Ux
 LZ
 LZ
-RF
+OA
 RF
 RF
 RF
@@ -7215,7 +7284,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 aJ
 sD
 kH
@@ -7232,7 +7301,7 @@ hU
 UD
 UD
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -7340,12 +7409,12 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
-RF
+Oo
+SS
+SS
+SS
+SS
+pP
 br
 fO
 ld
@@ -7362,7 +7431,7 @@ RI
 UI
 UI
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -7492,7 +7561,7 @@ QY
 Vn
 Vn
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -7601,7 +7670,7 @@ xP
 xP
 xP
 xP
-xP
+ml
 aI
 al
 aJ
@@ -7622,7 +7691,7 @@ SQ
 Vv
 WN
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -7731,7 +7800,7 @@ xP
 xP
 xP
 xP
-xP
+ml
 aI
 al
 aJ
@@ -7752,7 +7821,7 @@ SR
 Wp
 Xc
 Xu
-RF
+OA
 tO
 RF
 RF
@@ -7861,7 +7930,7 @@ xP
 xP
 xP
 xP
-xP
+ml
 aI
 al
 aJ
@@ -7882,7 +7951,7 @@ ST
 WA
 Xq
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -8012,7 +8081,7 @@ QY
 UD
 UD
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -8120,12 +8189,12 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
-RF
+HR
+WP
+WP
+WP
+WP
+pP
 br
 fa
 fa
@@ -8142,7 +8211,7 @@ RI
 UI
 UI
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -8255,7 +8324,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 aJ
 gH
 mU
@@ -8272,7 +8341,7 @@ hU
 Vn
 Vn
 Xu
-RF
+OA
 RF
 RF
 RF
@@ -8385,7 +8454,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 aJ
 hB
 hB
@@ -8402,7 +8471,7 @@ TG
 WJ
 LZ
 LZ
-RF
+OA
 RF
 RF
 RF
@@ -8515,11 +8584,11 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
+HR
+WP
+WP
+WP
+pP
 rC
 xv
 Ey
@@ -8531,8 +8600,8 @@ rC
 Uv
 LZ
 LZ
-RF
-RF
+pP
+jm
 RF
 RF
 RF
@@ -8649,7 +8718,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 rC
 yi
 Ey
@@ -8660,8 +8729,8 @@ Pe
 rC
 LZ
 LZ
-RF
-RF
+pP
+jm
 RF
 RF
 RF
@@ -8779,7 +8848,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 rC
 yp
 Fu
@@ -8788,9 +8857,9 @@ HW
 HW
 Pe
 rC
-RF
-RF
-RF
+pP
+WP
+jm
 RF
 RF
 RF
@@ -8909,7 +8978,7 @@ RF
 RF
 RF
 RF
-RF
+DF
 rC
 rC
 rC
@@ -8918,7 +8987,7 @@ Gw
 Gw
 rC
 rC
-RF
+OA
 RF
 RF
 RF
@@ -9039,16 +9108,16 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
+HR
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+jm
 RF
 RF
 RF

@@ -13,21 +13,21 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "c" = (
 /turf/unsimulated/wall,
 /area/space)
 "d" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "g" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "h" = (
 /obj/machinery/door/blast/shutters{
 	dir = 4;
@@ -39,37 +39,37 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "A" = (
 /obj/machinery/door/blast/shutters{
 	dir = 4;
 	id_tag = "cargo_shutter_lift"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "G" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small/red{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "L" = (
 /obj/effect/paint/brown,
 /obj/effect/paint_stripe/red,
 /obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "P" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/shuttle_landmark/supply/deep,
 /turf/simulated/floor/tiled,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 "R" = (
 /obj/effect/paint/brown,
 /obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
-/area/labyrinth/cargo/lift)
+/area/labyrinth/service/cargo/lift)
 
 (1,1,1) = {"
 a

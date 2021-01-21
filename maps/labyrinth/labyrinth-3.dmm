@@ -7,7 +7,7 @@
 	id_tag = "shuttle_front"
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "at" = (
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -22,21 +22,20 @@
 	id_tag = "shuttle_front"
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
-"ax" = (
-/obj/machinery/light/navigation/delay5,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/exoplanet/volcanic/labyrinth)
+/area/labyrinth/exploration_shuttle)
 "aC" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
 	id_tag = "labyrinth_shuttle_2_pump_out_external"
 	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
 /turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "aK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -49,7 +48,7 @@
 	id_tag = "shuttle_front"
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "aN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10;
@@ -58,17 +57,17 @@
 /obj/machinery/computer/ship/engines,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "bj" = (
 /obj/machinery/computer/ship/helm,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "bs" = (
 /obj/machinery/computer/ship/sensors,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "bT" = (
 /obj/machinery/power/apc{
 	dir = 4
@@ -82,13 +81,13 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/computer/shuttle_control/explore/exploration_pod,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "ch" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/standard,
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "ck" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6;
@@ -97,31 +96,38 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/fabricator,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "cw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
 	id_tag = "labyrinth_shuttle_pump_out_external"
 	},
-/turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
-"cy" = (
-/obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
+/area/labyrinth/exploration_shuttle)
+"cy" = (
+/obj/structure/railing/mapped,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "cL" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
 /turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "cM" = (
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "da" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "db" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -129,7 +135,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "dD" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -139,7 +145,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "dI" = (
 /obj/machinery/alarm{
 	dir = 1
@@ -147,7 +153,7 @@
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "dL" = (
 /obj/machinery/button/blast_door{
 	id_tag = "shuttle_front";
@@ -156,9 +162,9 @@
 /obj/structure/handrail{
 	dir = 1
 	},
-/obj/effect/overmap/visitable/ship/landable/exploration_pod,
+/obj/effect/overmap/visitable/ship/landable/exploration_shuttle,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "dQ" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -168,26 +174,37 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "eq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "eJ" = (
-/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"eL" = (
 /obj/structure/railing/mapped,
+/obj/structure/lattice,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"fn" = (
+/obj/machinery/shipsensors,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/labyrinth/bridge)
+"fz" = (
+/obj/machinery/shipsensors,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/exoplanet/volcanic/labyrinth)
-"fz" = (
-/obj/machinery/shipsensors,
 /turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "fB" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/eva)
@@ -208,7 +225,8 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "gy" = (
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "gU" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -220,7 +238,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch/autoname/maintenance,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "hf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -228,7 +246,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch/autoname/maintenance,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "hh" = (
 /obj/structure/hygiene/drain,
 /obj/machinery/light/small/red{
@@ -258,17 +276,21 @@
 /area/labyrinth/eva)
 "hQ" = (
 /obj/machinery/light/navigation/delay5,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "hS" = (
 /turf/simulated/open,
 /area/labyrinth/science/testing)
 "ix" = (
-/obj/structure/catwalk,
+/obj/structure/lattice,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "iy" = (
 /obj/structure/ladder,
@@ -279,11 +301,12 @@
 /turf/simulated/open,
 /area/labyrinth/science/testing)
 "iC" = (
+/obj/structure/lattice,
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/science/testing)
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "iG" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -291,19 +314,19 @@
 /obj/structure/ore_box,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "iK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "iL" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/sleeper,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "iR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
@@ -311,7 +334,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "jb" = (
 /turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
@@ -323,7 +346,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/dispenser/oxygen,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "jt" = (
 /obj/structure/hygiene/drain,
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -361,10 +384,23 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
+"kj" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "ku" = (
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/labyrinth/science/testing)
+"ky" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/maintenance/shaft)
 "lb" = (
 /obj/structure/lattice,
 /obj/structure/cable{
@@ -382,16 +418,22 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "lq" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/science/testing)
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "lJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "lP" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -401,7 +443,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "lQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -411,25 +453,34 @@
 	},
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "lY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/item/radio_beacon,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
+"mb" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "mg" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "mj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "mp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -438,7 +489,7 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "mr" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -474,9 +525,12 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "ni" = (
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
@@ -500,7 +554,7 @@
 	id_tag = "labyrinth_shuttle_2_in"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "nI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
@@ -510,25 +564,25 @@
 	id_tag = "labyrinth_shuttle_2_in"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "nJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "nU" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "nY" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "ot" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6;
@@ -537,7 +591,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "ow" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
@@ -545,7 +599,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "oE" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -592,7 +646,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "pE" = (
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "pT" = (
 /obj/structure/closet/secure_closet{
@@ -647,7 +702,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "qH" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
@@ -660,7 +715,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "qW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -682,13 +737,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "qZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "rl" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/button/access/interior{
@@ -700,7 +755,7 @@
 	id_tag = "labyrinth_shuttle_in"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "rw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
@@ -710,7 +765,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "rz" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
@@ -729,7 +784,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "rE" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
@@ -883,7 +938,7 @@
 	id_tag = "shuttle_left"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vu" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "labyrinth_shuttle_2_pump"
@@ -896,7 +951,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vD" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "labyrinth_shuttle_2_pump"
@@ -906,7 +961,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vE" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/external/bolted{
@@ -918,7 +973,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vJ" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -931,7 +986,7 @@
 	},
 /obj/effect/shuttle_landmark/exploration_pod/labyrinth,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vP" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -945,7 +1000,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/monotile,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vR" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable{
@@ -957,7 +1012,7 @@
 	id_tag = "labyrinth_shuttle_in"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "vX" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -973,7 +1028,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "wc" = (
 /obj/machinery/airlock_sensor{
 	id_tag = "labyrinth_shuttle_sensor";
@@ -995,7 +1050,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "wd" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "labyrinth_shuttle_out"
@@ -1019,7 +1074,7 @@
 	opacity = 0
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "wh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1115,6 +1170,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
+"xN" = (
+/obj/structure/railing/mapped,
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "xO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -1174,12 +1237,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "yd" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/lattice,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "yu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1223,6 +1282,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security)
+"yM" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/maintenance/shaft)
 "yQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1273,14 +1339,14 @@
 	dir = 8
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Ae" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9;
 	icon_state = "intact"
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Ai" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1293,20 +1359,20 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/hatch/autoname/maintenance,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "At" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
 	icon_state = "intact"
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Br" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Bv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1318,21 +1384,24 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "BI" = (
-/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 8
+	dir = 4
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/science/testing)
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "BO" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
 "BR" = (
-/obj/structure/catwalk,
 /obj/structure/railing/mapped{
-	dir = 4
+	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/lattice,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "BU" = (
 /obj/machinery/network/router,
@@ -1357,13 +1426,13 @@
 	start_pressure = 1460
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "CL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "CS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -1373,7 +1442,7 @@
 	},
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "De" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1383,7 +1452,7 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Dg" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1398,7 +1467,7 @@
 	},
 /obj/structure/handrail,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Dl" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1415,7 +1484,7 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/hatch/autoname/maintenance,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Ds" = (
 /obj/machinery/power/apc/hyper{
 	dir = 1;
@@ -1438,7 +1507,7 @@
 	icon_state = "map-scrubbers"
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Dy" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -1451,16 +1520,24 @@
 	},
 /obj/item/geiger,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
+"DA" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/lattice,
+/obj/structure/railing/mapped,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "DC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "DH" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/reinforced/airless,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "DS" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -1476,11 +1553,6 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/labyrinth/civilian/library)
-"Eg" = (
-/obj/machinery/light/navigation/delay5,
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
 "En" = (
 /obj/machinery/alarm,
 /turf/simulated/floor/carpet/blue,
@@ -1497,9 +1569,9 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
+/obj/structure/lattice,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "EC" = (
 /obj/structure/bookcase,
 /turf/simulated/floor/wood/walnut,
@@ -1510,14 +1582,15 @@
 "ET" = (
 /turf/simulated/open,
 /area/turbolift/labyrinth_tower)
-"Fq" = (
-/turf/simulated/open,
-/area/labyrinth/maintenance/shaft)
-"FE" = (
+"Fb" = (
+/obj/structure/railing/mapped,
 /obj/structure/lattice,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"Fq" = (
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "FH" = (
@@ -1531,6 +1604,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
+"Go" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "Gv" = (
 /obj/machinery/commsrelay,
 /turf/simulated/floor/bluegrid,
@@ -1556,7 +1638,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "GO" = (
 /obj/machinery/atmospherics/binary/passive_gate/on{
 	dir = 8
@@ -1565,7 +1647,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "GX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10;
@@ -1575,15 +1657,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "GZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Hz" = (
 /obj/machinery/atmospherics/unary/tank/air,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
+"HA" = (
+/obj/structure/lattice,
+/obj/structure/railing/mapped,
+/turf/simulated/open,
+/area/labyrinth/maintenance/shaft)
 "HY" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1600,7 +1687,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Ij" = (
 /obj/machinery/light{
 	dir = 4
@@ -1613,11 +1700,11 @@
 /obj/item/stack/material/uranium/ten,
 /obj/item/stack/material/uranium/ten,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "It" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Iw" = (
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1670,18 +1757,28 @@
 /area/labyrinth/maintenance/shaft)
 "IT" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped,
-/turf/simulated/open,
-/area/labyrinth/maintenance/shaft)
-"Jm" = (
 /obj/structure/railing/mapped{
 	dir = 8
+	},
+/turf/simulated/open,
+/area/labyrinth/maintenance/shaft)
+"Jl" = (
+/obj/structure/railing/mapped{
+	dir = 4
 	},
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
+/obj/structure/lattice,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"Jm" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "Jp" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
@@ -1711,7 +1808,7 @@
 /obj/random/medical/lite,
 /obj/random/medical/lite,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Ke" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
@@ -1721,12 +1818,12 @@
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Kp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Kr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9;
@@ -1734,26 +1831,24 @@
 	},
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Kx" = (
 /obj/structure/cable,
 /obj/machinery/power/port_gen/pacman/super,
 /turf/simulated/floor/plating,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Kz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/wall/titanium,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "KX" = (
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
 "Lj" = (
 /obj/machinery/light/navigation/delay5,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "Lp" = (
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
@@ -1787,7 +1882,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Mn" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
@@ -1795,7 +1890,7 @@
 	use_power = 1
 	},
 /turf/simulated/floor/airless,
-/area/labyrinth/exploration_pod)
+/area/labyrinth/exploration_shuttle)
 "Mv" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8
@@ -1922,25 +2017,39 @@
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
 "Pl" = (
+/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"Pq" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "Pr" = (
-/obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/lattice,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "PS" = (
+/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/science/testing)
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "PY" = (
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
@@ -1968,44 +2077,36 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/maintenance/shaft)
 "QJ" = (
+/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 4
+	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
-"Rt" = (
-/obj/machinery/light/navigation/delay5,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced/airless,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "RN" = (
-/obj/structure/catwalk,
 /obj/structure/railing/mapped{
-	dir = 8
+	dir = 1
 	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "RV" = (
-/obj/machinery/shipsensors,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/bridge)
+/obj/structure/catwalk,
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "Sp" = (
 /obj/machinery/light/navigation/delay5,
 /obj/structure/catwalk,
-/turf/simulated/floor/reinforced/airless,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "Sr" = (
-/obj/structure/catwalk,
 /obj/structure/railing/mapped{
-	dir = 8
+	dir = 4
 	},
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "SD" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -2020,22 +2121,20 @@
 /area/labyrinth/hallway/tower)
 "Ti" = (
 /obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
 	dir = 1
 	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"Tl" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/science/testing)
-"Tl" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/railing/mapped,
+/obj/structure/lattice,
+/turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "Tq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2169,13 +2268,14 @@
 /area/labyrinth/hallway/tower)
 "VG" = (
 /obj/structure/railing/mapped{
-	dir = 4
+	dir = 8
 	},
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/engineering/atmospherics)
+/obj/structure/lattice,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "VI" = (
 /obj/machinery/light{
 	dir = 4
@@ -2188,11 +2288,29 @@
 "Wm" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/bridge)
+"WC" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "WV" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/labyrinth/bridge)
+"XR" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/lattice,
+/obj/structure/railing/mapped,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "XS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6007,25 +6125,25 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
+da
 jb
 jb
 jb
@@ -6136,27 +6254,27 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+cy
+RV
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+RV
+RN
 jb
 jb
 jb
@@ -6266,27 +6384,27 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+cy
+DH
+DH
+ne
+BR
+BR
+BR
+BR
+BR
+BR
+Tl
+DH
+VG
+BR
+BR
+BR
+BR
+XR
+DH
+DH
+RN
 jb
 jb
 jb
@@ -6396,10 +6514,10 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
+cy
+DH
+ix
+yd
 aC
 cL
 cM
@@ -6413,10 +6531,10 @@ cM
 cM
 cM
 Mg
-jb
-jb
-jb
-jb
+yd
+Fb
+DH
+RN
 jb
 jb
 jb
@@ -6526,9 +6644,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 am
 aK
 cM
@@ -6544,9 +6662,9 @@ GM
 cM
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -6656,9 +6774,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 aN
 db
@@ -6674,9 +6792,9 @@ GO
 JW
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -6786,9 +6904,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 bj
 dD
@@ -6804,9 +6922,9 @@ GX
 Ke
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -6916,9 +7034,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 bs
 dI
@@ -6934,9 +7052,9 @@ GZ
 Kp
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -7046,9 +7164,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 cc
 dL
@@ -7064,9 +7182,9 @@ Hz
 Kr
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -7176,9 +7294,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 ch
 dQ
@@ -7194,9 +7312,9 @@ cM
 cM
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -7306,9 +7424,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 au
 ck
 eq
@@ -7324,9 +7442,9 @@ HY
 Kx
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -7436,9 +7554,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+iC
 am
 aK
 cM
@@ -7454,9 +7572,9 @@ Ij
 cM
 cM
 Mg
-jb
-jb
-jb
+eL
+DH
+RN
 jb
 jb
 jb
@@ -7566,10 +7684,10 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
+cy
+DH
+lq
+yd
 cw
 fz
 cM
@@ -7583,10 +7701,10 @@ DC
 It
 Kz
 Mn
-jb
-jb
-jb
-jb
+yd
+xN
+DH
+RN
 jb
 jb
 jb
@@ -7696,27 +7814,27 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-Sr
+cy
+DH
+DH
+BI
+Ex
+Ex
+Ex
+Pr
+DH
 fB
 fB
 wm
 fB
-yd
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+DH
+Jl
+Ex
+Ex
+DA
+DH
+DH
+RN
 jb
 jb
 jb
@@ -7826,28 +7944,28 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
 cy
+RV
+DH
+DH
+DH
+DH
+DH
+DH
+DH
 fB
 rE
 wp
 fB
 DH
-ix
-ix
-ix
-ix
-ix
-RN
-jb
-jb
+DH
+DH
+DH
+DH
+DH
+DH
+Sr
+da
 jb
 jb
 jb
@@ -7957,14 +8075,14 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-Sr
+eJ
+eJ
+eJ
+eJ
+eJ
+Pl
 DH
+RV
 fB
 rM
 wx
@@ -7976,9 +8094,9 @@ DS
 DS
 EQ
 Sp
-ix
-RN
-jb
+DH
+DH
+Sr
 jb
 jb
 jb
@@ -8092,8 +8210,8 @@ jb
 jb
 jb
 jb
-jb
-cy
+Jm
+DH
 fB
 fB
 rZ
@@ -8108,8 +8226,8 @@ EQ
 SD
 Or
 DH
-RN
-jb
+DH
+Sr
 jb
 jb
 jb
@@ -8221,8 +8339,8 @@ jb
 jb
 jb
 jb
-jb
-Sr
+cy
+DH
 DH
 fB
 oE
@@ -8239,8 +8357,8 @@ SL
 Or
 Or
 DH
-yd
-jb
+DH
+RN
 jb
 jb
 jb
@@ -8351,8 +8469,8 @@ jb
 jb
 jb
 jb
-jb
 cy
+DH
 fB
 fB
 oF
@@ -8369,8 +8487,8 @@ Tq
 VB
 Or
 Or
-da
-jb
+DH
+Sr
 jb
 jb
 jb
@@ -8480,9 +8598,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-cy
+da
+Jm
+DH
 DH
 fH
 oL
@@ -8500,8 +8618,8 @@ VI
 SL
 ZD
 DH
-yd
-jb
+DH
+RN
 jb
 jb
 jb
@@ -8609,9 +8727,9 @@ jb
 jb
 jb
 jb
-jb
-Sr
-ix
+kj
+DH
+DH
 DH
 DH
 fH
@@ -8630,8 +8748,8 @@ Wm
 Wm
 Wm
 RV
-da
-jb
+DH
+RN
 jb
 jb
 jb
@@ -8738,9 +8856,9 @@ jb
 jb
 jb
 jb
-jb
-ax
 cy
+Sp
+DH
 fB
 fB
 fB
@@ -8760,8 +8878,8 @@ WV
 Yq
 Wm
 Wm
-da
-jb
+DH
+mb
 jb
 jb
 jb
@@ -8869,7 +8987,7 @@ jb
 jb
 jb
 jb
-jb
+eJ
 DH
 fH
 hh
@@ -8890,9 +9008,9 @@ Wm
 Yr
 ZI
 WV
-da
-jb
-jb
+DH
+DH
+RN
 jb
 jb
 jb
@@ -9020,9 +9138,9 @@ XS
 YP
 nm
 WV
-da
-jb
-jb
+fn
+DH
+RN
 jb
 jb
 jb
@@ -9129,7 +9247,7 @@ jb
 jb
 jb
 jb
-jb
+da
 DH
 fH
 hC
@@ -9150,9 +9268,9 @@ Wm
 Zc
 ZI
 WV
-da
-jb
-jb
+DH
+DH
+RN
 jb
 jb
 jb
@@ -9258,9 +9376,9 @@ jb
 jb
 jb
 jb
-jb
-Rt
 cy
+Sp
+DH
 fB
 fB
 jM
@@ -9280,8 +9398,8 @@ WV
 Zx
 Wm
 Wm
-da
-jb
+DH
+Go
 jb
 jb
 jb
@@ -9389,9 +9507,9 @@ jb
 jb
 jb
 jb
-jb
-Tl
-BR
+Pl
+DH
+DH
 DH
 DH
 mA
@@ -9409,9 +9527,9 @@ TC
 Wm
 Wm
 Wm
+RV
 DH
-eJ
-jb
+RN
 jb
 jb
 jb
@@ -9520,9 +9638,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-cy
+eJ
+Pl
+DH
 DH
 mA
 qc
@@ -9539,8 +9657,8 @@ Tv
 Yc
 SL
 ZD
-da
-jb
+DH
+Ti
 jb
 jb
 jb
@@ -9651,15 +9769,15 @@ jb
 jb
 jb
 jb
-jb
 cy
+DH
 jM
 jM
 jM
 tf
 yV
 BO
-FE
+IT
 IS
 Lu
 Ne
@@ -9669,8 +9787,8 @@ Vn
 Yo
 Or
 Or
-da
-jb
+DH
+RN
 jb
 jb
 jb
@@ -9781,26 +9899,26 @@ jb
 jb
 jb
 jb
-jb
-Tl
-BR
+cy
 DH
+DH
+RV
 jM
 tt
 yZ
 BO
 FH
-IT
+HA
 Fq
-Ny
+ky
 Ny
 BO
 Vr
 Or
 Or
 DH
-Pr
-jb
+DH
+RN
 jb
 jb
 jb
@@ -9911,26 +10029,26 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
 cy
+DH
+PS
+DH
 jM
 tD
 tD
 BO
 FH
-IT
+HA
 Fq
-NC
+yM
 NC
 BO
 SD
 Or
 DH
-Pr
-jb
-jb
+DH
+DH
+RN
 jb
 jb
 jb
@@ -10041,12 +10159,12 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-Tl
-BR
-BR
+cy
+DH
+QJ
+DH
+DH
+DH
 Sp
 BO
 BO
@@ -10056,11 +10174,11 @@ BO
 BO
 BO
 Sp
-BR
-Pr
-jb
-jb
-jb
+DH
+DH
+WC
+DH
+RN
 jb
 jb
 jb
@@ -10171,26 +10289,26 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-Tl
-BR
-BR
-BR
-BR
-BR
-BR
-BR
-Pr
-jb
-jb
-jb
-jb
-jb
+cy
+DH
+RN
+eJ
+eJ
+Pl
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+Ti
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10301,26 +10419,26 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
+eJ
+eJ
+eJ
+eJ
+eJ
+eJ
+eJ
+eJ
+eJ
+eJ
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10431,6 +10549,9 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10445,15 +10566,12 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+cy
+DH
+Sr
+da
+da
+Pq
 jb
 jb
 jb
@@ -10561,6 +10679,9 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10575,16 +10696,13 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-Jm
-Pl
-Pl
-ne
-jb
+cy
+DH
+pE
+pE
+pE
+pE
+RN
 jb
 jb
 jb
@@ -10691,6 +10809,9 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10705,16 +10826,13 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
+cy
+DH
 Lj
 pE
 pE
-Eg
-jb
+Lj
+RN
 jb
 jb
 jb
@@ -10821,6 +10939,9 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10835,16 +10956,13 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-VG
-QJ
-QJ
-Ex
-jb
+cy
+DH
+pE
+pE
+pE
+pE
+RN
 jb
 jb
 jb
@@ -10951,6 +11069,9 @@ jb
 jb
 jb
 jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10966,14 +11087,11 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+eJ
+eJ
+eJ
+eJ
+eJ
 jb
 jb
 jb
@@ -11081,9 +11199,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11211,9 +11329,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11341,9 +11459,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11471,9 +11589,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11601,9 +11719,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11731,9 +11849,9 @@ jb
 jb
 jb
 jb
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -11861,18 +11979,18 @@ jb
 jb
 jb
 jb
+Jm
+DH
+Sr
 jb
 jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+da
+da
+da
+da
+da
+da
+da
 jb
 jb
 jb
@@ -11990,20 +12108,20 @@ jb
 jb
 jb
 jb
-jb
-Ti
-PS
-BI
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+cy
+gy
+gy
+gy
+RN
+cy
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+RN
 jb
 jb
 jb
@@ -12120,20 +12238,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
 gy
-lq
-jb
-jb
-jb
+gy
+gy
+RN
+cy
+DH
 zA
 zA
 zA
 zA
 zA
-jb
-jb
+DH
+RN
 jb
 jb
 jb
@@ -12250,20 +12368,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
 gy
-lq
-jb
-jb
-jb
+gy
+gy
+Sr
+Jm
+DH
 zA
 BU
 Gv
 Jp
 LF
-jb
-jb
+DH
+RN
 jb
 jb
 jb
@@ -12380,20 +12498,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
+gy
 hQ
-lq
-jb
-jb
-jb
+gy
+DH
+DH
+DH
 zA
 Ca
 GA
 Jx
 LF
-jb
-jb
+DH
+RN
 jb
 jb
 jb
@@ -12510,20 +12628,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
 gy
-lq
-jb
-jb
-jb
+gy
+gy
+Ti
+Pl
+DH
 zA
 Cb
 GJ
 JU
 LF
-jb
-jb
+DH
+RN
 jb
 jb
 jb
@@ -12640,20 +12758,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
 gy
-lq
-jb
-jb
-jb
+gy
+gy
+RN
+cy
+DH
 zA
 zA
 zA
 zA
 zA
-jb
-jb
+DH
+RN
 jb
 jb
 jb
@@ -12770,20 +12888,20 @@ jb
 jb
 jb
 jb
-jb
-iC
+cy
 gy
-lq
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
-jb
+gy
+gy
+RN
+cy
+DH
+DH
+DH
+DH
+DH
+DH
+DH
+RN
 jb
 jb
 jb
@@ -12908,11 +13026,11 @@ gU
 gU
 gU
 gU
-jb
-jb
-jb
-jb
-jb
+eJ
+eJ
+eJ
+eJ
+eJ
 jb
 jb
 jb

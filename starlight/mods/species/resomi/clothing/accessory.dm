@@ -16,9 +16,9 @@
 	name = "Resomi Hedgehog"
 	icon_state = "resomi_hedge"
 
-/datum/sprite_accessory/hair/resomi/long
+/datum/sprite_accessory/hair/resomi/unpruned
 	name = "Resomi Unpruned"
-	icon_state = "resomi_long"
+	icon_state = "resomi_unpruned"
 
 /datum/sprite_accessory/hair/resomi/sunburst
 	name = "Resomi Sunburst"
@@ -48,13 +48,9 @@
 	name = "Resomi Droopy"
 	icon_state = "resomi_droopy"
 
-/datum/sprite_accessory/hair/resomi/mushroom
-	name = "Resomi Mushroom"
-	icon_state = "resomi_mushroom"
-
-/datum/sprite_accessory/hair/resomi/twies
-	name = "Resomi Twies"
-	icon_state = "resomi_twies"
+/datum/sprite_accessory/hair/resomi/neon
+	name = "Resomi Neon"
+	icon_state = "resomi_neon"
 
 /datum/sprite_accessory/hair/resomi/backstrafe
 	name = "Resomi Backstrafe"
@@ -64,27 +60,6 @@
 	name = "Resomi Long way"
 	icon_state = "resomi_longway"
 
-/datum/sprite_accessory/hair/resomi/notree
-	name = "Resomi Tree"
-	icon_state = "resomi_notree"
-
-/datum/sprite_accessory/hair/resomi/fluffymohawk
-	name = "Resomi Fluffy Mohawk"
-	icon_state = "resomi_fluffymohawk"
-
-// MARKINGS
-
-/datum/sprite_accessory/marking/resomi
-	icon = 'starlight/mods/species/resomi/icons/markings.dmi'
-	species_allowed = list(SPECIES_RESOMI)
-	do_colouration = 1
-
-/datum/sprite_accessory/marking/resomi/resomi_fluff
-	name = "Resomi underfluff"
-	icon_state = "resomi_fluff"
-	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_GROIN,BP_CHEST,BP_HEAD)
-
-/datum/sprite_accessory/marking/resomi/resomi_small_feathers
-	name = "Resomi small wingfeathers"
-	icon_state = "resomi_sf"
-	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_HAND,BP_R_HAND,BP_CHEST)
+/datum/sprite_accessory/hair/resomi/twinshift
+	name = "Resomi Twinshift"
+	icon_state = "resomi_twinshift"

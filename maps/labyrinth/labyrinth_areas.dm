@@ -95,19 +95,19 @@
 
 //Cargo
 
-/area/labyrinth/cargo
+/area/labyrinth/service/cargo
 	name = "Cargo Bay"
 	req_access = list(access_cargo)
 
-/area/labyrinth/cargo/storage
+/area/labyrinth/service/cargo/storage
 	name = "Cargo Storage"
 
-/area/labyrinth/cargo/lift
+/area/labyrinth/service/cargo/lift
 	name = "Cargo Lift"
 	requires_power = FALSE
 	dynamic_lighting = TRUE
 
-/area/labyrinth/cargo/smelter
+/area/labyrinth/service/cargo/smelter
 	name = "Mining Smelter"
 	req_access = list(list(access_cargo, access_research, access_engine))
 

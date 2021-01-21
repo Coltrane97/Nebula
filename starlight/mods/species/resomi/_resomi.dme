@@ -5,7 +5,6 @@
 #include "clothing\accessory.dm"
 #include "clothing\clothing.dm"
 #include "clothing\equipment.dm"
-#include "clothing\eyes\glasses.dm"
 #include "datum\culture.dm"
 #include "datum\loadout.dm"
 #include "datum\markings.dm"

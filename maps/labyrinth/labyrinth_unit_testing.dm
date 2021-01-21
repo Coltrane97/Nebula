@@ -4,6 +4,6 @@
 		/area/space     = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/exoplanet = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/labyrinth/maintenance = NO_SCRUBBER|NO_VENT,
-		/area/labyrinth/cargo/lift  = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/labyrinth/service/cargo/lift  = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/labyrinth/engineering/atmospherics = NO_SCRUBBER|NO_VENT,
 	)

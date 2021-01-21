@@ -15,6 +15,8 @@
 	bump_flag         = MONKEY
 	swap_flags        = MONKEY|SLIME|SIMPLE_ANIMAL
 	push_flags        = MONKEY|SLIME|SIMPLE_ANIMAL|ALIEN
+	limb_blend        = ICON_MULTIPLY
+	tail_blend        = ICON_MULTIPLY
 
 	icobase           = 'starlight/mods/species/resomi/icons/body.dmi'
 	deform            = 'starlight/mods/species/resomi/icons/body.dmi'
@@ -116,3 +118,8 @@
 /obj/item/organ/internal/eyes/resomi
 	eye_icon = 'starlight/mods/species/resomi/icons/eyes.dmi'
 	icon_state = "eyes"
+
+/decl/species/resomi/handle_post_species_pref_set(var/datum/preferences/pref)
+	if(!pref) return
+	LAZYINITLIST(pref.body_markings)
+	if(!pref.body_markings["Feathers"]) pref.body_markings["Feathers"] = "#8888cc"

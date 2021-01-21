@@ -37,7 +37,7 @@
 	arms["plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/filled
 	arms["riot armor"] = /obj/item/clothing/suit/armor/riot
 	arms["ballistic armor"] = /obj/item/clothing/suit/armor/bulletproof
-	gear_tweaks += new/datum/gear_tweak/path(arms)
+	gear_tweaks += new /datum/gear_tweak/path(arms)
 
 //Helmet
 
@@ -52,7 +52,7 @@
 	helms["helmet"] = /obj/item/clothing/head/helmet
 	helms["riot helmet"] = /obj/item/clothing/head/helmet/riot
 	helms["ballistic helmet"] = /obj/item/clothing/head/helmet/ballistic
-	gear_tweaks += new/datum/gear_tweak/path(helms)
+	gear_tweaks += new /datum/gear_tweak/path(helms)
 
 //Mask
 
@@ -67,7 +67,7 @@
 	masks["full mask"] = /obj/item/clothing/mask/gas
 	masks["half mask"] = /obj/item/clothing/mask/gas/half
 	masks["tactical mask"] = /obj/item/clothing/mask/gas/syndicate
-	gear_tweaks += new/datum/gear_tweak/path(masks)
+	gear_tweaks += new /datum/gear_tweak/path(masks)
 
 /datum/gear/tactical/holster
 	cost = 1
