@@ -3,4 +3,6 @@
 #include "europa_tileset.dm"
 #include "flooring.dm"
 #include "flooring_premade.dm"
+#include "materials.dm"
+#include "machinery.dm"
 #endif
